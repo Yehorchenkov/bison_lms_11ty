@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    {# <link rel="stylesheet" href="/styles/debug.css"> #}
+    <title> {{ site.title }} </title>
+
+    {# {% favicons "./src/favicon.svg", manifestData={name: '{{ site.title }}' } %} #}
+
+</head>
+<body>
+    {% include "nav-header.njk" %}
+    
+    <main class="hero is-fullheight">
+        {{ content | safe }}
+
+        {% include "footer.njk" %}
+    </main>    
+</body>
+</html>

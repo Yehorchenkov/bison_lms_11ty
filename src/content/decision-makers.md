@@ -1,6 +1,6 @@
 ---
 title: Decision Makers
-layout: layouts/page.njk
+layout: layouts/post.njk
 ---
 
 Embed PDF.

@@ -54,7 +54,8 @@ module.exports = function(eleventyConfig) {
 <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function(){
-        var adobeDCView = new AdobeDC.View({clientId: "70e713a9f68441eaa876ebca12ea8bf8", divId: "${divid}"});
+        // var adobeDCView = new AdobeDC.View({clientId: "70e713a9f68441eaa876ebca12ea8bf8", divId: "${divid}"}); //localhost
+        var adobeDCView = new AdobeDC.View({clientId: "b4c210d1f7b84725b53e753649870543", divId: "${divid}"}); //monkfish-app-f6zri.ondigitalocean.app
         adobeDCView.previewFile({
             content:{ location:
                     { url: "${url}"}},

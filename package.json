@@ -16,7 +16,6 @@
     "eleventy-plugin-gen-favicons": "^1.1.1"
   },
   "dependencies": {
-    "eleventy-plugin-pdfembed": "^1.0.1",
     "eleventy-plugin-youtube-embed": "^1.7.1"
   }
 }

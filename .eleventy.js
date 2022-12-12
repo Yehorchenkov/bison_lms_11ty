@@ -1,7 +1,5 @@
 const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 
-const pluginPDFEmbed = require("eleventy-plugin-pdfembed");
-
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -27,10 +25,6 @@ module.exports = function(eleventyConfig) {
     
     // favicon plugin
     eleventyConfig.addPlugin(faviconsPlugin, {});
-
-    eleventyConfig.addPlugin(pluginPDFEmbed, {
-		key: '70e713a9f68441eaa876ebca12ea8bf8'
-	});
 
     eleventyConfig.addPlugin(embedYouTube);
 

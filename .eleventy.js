@@ -50,7 +50,7 @@ module.exports = function(eleventyConfig) {
         let filename = url.split("/").pop();
 
         return `
-<div id="${divid}" style="height: 500px; width: 800px;"></div>
+<div id="${divid}" style="height: 500px;"></div>
 <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function(){
@@ -67,8 +67,27 @@ module.exports = function(eleventyConfig) {
     });
 </script>
         `;
-    }); 
-    
+    });
+
+    // h5p shortcode
+    eleventyConfig.addShortcode("h5p", function(url, divid) {
+        if(!divid) divid = "h5p-container";
+
+        return `
+<div id="${divid}"></div>
+<script type="text/javascript" src="/assets/h5p/main.bundle.js"></script>
+<script type="text/javascript">
+	const el = document.getElementById("${divid}");
+    const options = {
+        h5pJsonPath:  "${url}",
+        frameJs: '/assets/h5p/frame.bundle.js',
+        frameCss: '/assets/h5p/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
+        `;
+    });
+
     return {
         dir: {
             input: "src"

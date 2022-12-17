@@ -21,7 +21,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/h5p-content/");
 
-    eleventyConfig.addPassthroughCopy("./src/pdf-content")
+    eleventyConfig.addPassthroughCopy("./src/pdf-content/")
+
+    eleventyConfig.addPassthroughCopy("./src/notes/media/")
     
     // favicon plugin
     eleventyConfig.addPlugin(faviconsPlugin, {});
@@ -29,6 +31,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(embedYouTube);
 
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+    // Page order
+    function sortByPageOrder(values) {
+        return values.slice().sort((a, b) => Math.sign(a.data.order - b.data.order));
+    }
+    eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
     // quizlet shortcode
     eleventyConfig.addShortcode("quizlet", (url) => 
@@ -87,5 +95,5 @@ module.exports = function(eleventyConfig) {
             input: "src"
             // output: "public"
         }
-    };
+    }
 };

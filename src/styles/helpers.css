@@ -23,7 +23,7 @@
 	}
 }
 
-/* It supposed for menu. DELETE! */
-.verticalLine {
-	border-left: thin solid #7fc4fd86;
+/* Solid border */
+hr.solid {
+	border-top: 2px solid #F5F5F5;
 }

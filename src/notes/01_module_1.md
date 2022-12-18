@@ -4,6 +4,9 @@ description: "General information about spatial planning"
 tags: notes
 date: 2021-12-12
 order: 1
+eleventyNavigation:
+    key: Module_1
+    parent: Decision_makers
 layout: layouts/post.njk
 ---
 

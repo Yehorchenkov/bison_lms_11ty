@@ -8,6 +8,9 @@ by better balancing the different demands for this space"
 tags: notes
 date: 2021-12-12
 order: 2
+eleventyNavigation:
+    key: Module_2
+    parent: Decision_makers
 layout: layouts/post.njk
 ---
 

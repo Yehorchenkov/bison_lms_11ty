@@ -5,6 +5,9 @@ infrastructure in the danube basin"
 tags: notes
 date: 2021-12-12
 order: 0
+eleventyNavigation:
+    key: Module_0
+    parent: Decision_makers
 layout: layouts/post.njk
 ---
 

@@ -27,3 +27,18 @@
 hr.solid {
 	border-top: 2px solid #F5F5F5;
 }
+
+/* stick menu */
+.menu {
+	position: sticky;
+	display: inline-block;
+	vertical-align: top;
+	max-height: 100vh;
+	overflow-y: auto;	
+	top: 0;
+	bottom: 0;
+	padding: 10px;
+  }
+
+/* Remove bullets from menu */
+li {list-style-type: none;}

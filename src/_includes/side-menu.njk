@@ -1,43 +1,28 @@
-<aside class="menu mt-5">                
-    <p class="menu-label">
-        General
-    </p>
-    
+<aside class="menu mt-5">    
+    {# {% set navPages = collections.notes | eleventyNavigation %}
     <ul class="menu-list">
-        <li><a>Dashboard</a></li>
-        <li><a>Customers</a></li>
+        {% for entry in navPages %}
+            <li> <a{% if entry.url == page.url %} class="is-active"{% endif %} href="{{ entry.url }}">{{ entry.data.title }}</a>
+            </li>
+        {% endfor %}
+    </ul> #}
+    <p class="menu-label">General</p>
+    <ul class="menu-list">
+        <li><a href="/">Home</a></li>        
+        <li><a href="/about">About</a></li>
     </ul>
-    
-    <p class="menu-label">
-        Administration
-    </p>
 
+    <p class="menu-label">Content</p>
     <ul class="menu-list">
-        <li><a>Team Settings</a></li>
-        <li>
-            <a class="menu-list">Manage Team</a>
+        <li><a {% if page.url == "/content/decision-makers/" %} class="is-active"{% endif %} href="/content/decision-makers">Decision Makers</a>
             <ul>
-            <li><a>Members</a></li>
-            <li><a>Plugins</a></li>
-            <li><a>Add a member</a></li>
-            <li><a>Members</a></li>
-            <li><a>Plugins</a></li>
-            <li><a>Add a member</a></li>                      
-            <li><a>Add a member</a></li>
+        {% for note in collections.notes | sortByPageOrder %}
+        <li>
+            <a {% if note.url == page.url %} class="is-active"{% endif %} href="{{ note.url }}">{{ note.data.title }}</a>
+        </li>
+        {% endfor %}
             </ul>
         </li>
-        <li><a>Invitations</a></li>
-        <li><a>Cloud Storage Environment Settings</a></li>
-        <li><a>Authentication</a></li>
-    </ul>
-
-    <p class="menu-label">
-        Transactions
-    </p>
-
-    <ul class="menu-list">
-        <li><a>Payments</a></li>
-        <li><a>Transfers</a></li>
-        <li><a>Balance</a></li>
-    </ul>
+    </ul>   
+      
 </aside>

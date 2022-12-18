@@ -21,9 +21,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/h5p-content/");
 
-    eleventyConfig.addPassthroughCopy("./src/pdf-content/")
+    eleventyConfig.addPassthroughCopy("./src/pdf-content/");
 
-    eleventyConfig.addPassthroughCopy("./src/notes/media/")
+    eleventyConfig.addPassthroughCopy("./src/notes/media/");
     
     // favicon plugin
     eleventyConfig.addPlugin(faviconsPlugin, {});

@@ -4,6 +4,9 @@ description: "Description of the most important methodological steps for definin
 tags: notes
 date: 2021-12-12
 order: 3
+eleventyNavigation:
+    key: Module_0
+    parent: Decision_makers
 layout: layouts/post.njk
 ---
 

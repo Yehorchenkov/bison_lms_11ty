@@ -8,6 +8,7 @@ layout: layouts/post.njk
         {%- for post in collections.notes | sortByPageOrder -%}
           <li>
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
+                <p> {{ post.data.description }} </p>
           </li>
         {%- endfor -%}
     </ul>    

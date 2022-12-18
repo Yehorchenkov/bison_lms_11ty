@@ -5,6 +5,9 @@ changes"
 tags: notes
 date: 2021-12-12
 order: 4
+eleventyNavigation:
+    key: Module_4
+    parent: Decision_makers
 layout: layouts/post.njk
 ---
 

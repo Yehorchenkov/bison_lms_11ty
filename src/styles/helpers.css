@@ -42,3 +42,8 @@ hr.solid {
 
 /* Remove bullets from menu */
 li {list-style-type: none;}
+
+/* for equal card height */
+.card {
+	height: 100%;
+  }

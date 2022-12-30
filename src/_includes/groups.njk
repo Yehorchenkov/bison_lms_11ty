@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="columns">
+        {% for key, val in groups %}
+            <div class="column">
+                <a href="{{ val.ref }}">
+                    <div class="card shadow-lg is-cursor-pointer">
+                        <div class="card-image cover-image is-overflow-hidden">
+                            <figure class="image is-4by3">
+                                <img src="{{ val.image }}" alt="{{ val.alt }}">
+                            </figure>
+                        </div>              
+                        <div class="card-content">
+                            <div class="content">
+                                <strong>{{ val.name }}</strong>
+                            </div>
+                        </div> 
+                    </div>
+                </a>
+            </div>            
+        {% endfor %}
+    </div>
+</div>

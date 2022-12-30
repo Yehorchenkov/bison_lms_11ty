@@ -32,16 +32,12 @@
                 <a class="navbar-link">
                     Target groups
                 </a>
-                <div class="navbar-dropdown">
-                    <a class="navbar-item" href="/content/decision-makers">
-                        Decision-makers
-                    </a>
-                    <a class="navbar-item" href="/content/professionals">
-                        Professionals
-                    </a>
-                    <a class="navbar-item" href="/content/eu-level-actors">
-                        EU level actors
-                    </a>            
+                <div class="navbar-dropdown is-right">
+                    {% for key, val in groups %}
+                        <a class="navbar-item" href="{{ val.ref }}">
+                            {{ val.name }}
+                        </a>
+                    {% endfor %}                               
                 </div>
             </div>
             <a class="navbar-item" href="/contacts">

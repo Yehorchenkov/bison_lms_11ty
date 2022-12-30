@@ -1,37 +1,36 @@
-.is-duration-500 {
-    transition-duration: 0.5s;
-  }
-
-.is-duration-300 {
-    transition-duration: 0.3s;
-}
-  
-  .transform {
-      -webkit-transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
-      transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);
+body {
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
-  .hover-translate-y:hover {
-      -webkit-transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
-      transform: translateX(0) translateY(-0.25rem) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1) !important;
+  .cover-image {
+      max-height: 330px;
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+  }
+  
+  .cover-image img {
+      transition: transform 1s, filter 2s ease-in-out;
+      -webkit-transition: transform 1s, filter 2s ease-in-out;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+  }
+  
+  .card:hover .cover-image img {
+      cursor: pointer;
+      transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+  }
+  
+  .is-overflow-hidden {
+      overflow: hidden !important;
   }
   
   .is-cursor-pointer {
       cursor: pointer !important;
   }
   
-  .is-shadow-none {
-    box-shadow: none !important;
-  }
-  
-  .is-showdow-2xl:hover {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25), 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
-  }
-
-  .is-showdow-xl:hover {
-    box-shadow: 0 13px 25px -6px rgba(0, 0, 0, 0.25), 0 13px 25px -6px rgba(0, 0, 0, 0.25) !important;
-  }
-  
-  .is-img-center {
-      margin: 0 auto;
+  .shadow-lg {
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
   }

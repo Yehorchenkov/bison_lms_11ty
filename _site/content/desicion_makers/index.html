@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    
+    <title> Spectra e-learning platform </title>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+</head>
+<body>
+    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item center" href="/">
+            <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
+        </a>        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-text-weight-bold">
+                Spectra e-learning platform
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <a class="navbar-item" href="/about">
+                About
+            </a>
+            <a class="navbar-item" href="/how-to-use">
+                How to use
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Target groups
+                </a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="/content/decision-makers">
+                        Decision-makers
+                    </a>
+                    <a class="navbar-item" href="/content/professionals">
+                        Professionals
+                    </a>
+                    <a class="navbar-item" href="/content/eu-level-actors">
+                        EU level actors
+                    </a>            
+                </div>
+            </div>
+            <a class="navbar-item" href="/contacts">
+                Contacts
+            </a>        
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+});
+
+});
+</script>
+    
+    <main class="hero is-fullheight">
+        
+<section class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column content is-one-quarter">
+                <aside class="menu mt-5">                
+    <p class="menu-label">
+        General
+    </p>
+    
+    <ul class="menu-list">
+        <li><a>Dashboard</a></li>
+        <li><a>Customers</a></li>
+    </ul>
+    
+    <p class="menu-label">
+        Administration
+    </p>
+
+    <ul class="menu-list">
+        <li><a>Team Settings</a></li>
+        <li>
+            <a class="menu-list">Manage Team</a>
+            <ul>
+            <li><a>Members</a></li>
+            <li><a>Plugins</a></li>
+            <li><a>Add a member</a></li>
+            <li><a>Members</a></li>
+            <li><a>Plugins</a></li>
+            <li><a>Add a member</a></li>                      
+            <li><a>Add a member</a></li>
+            </ul>
+        </li>
+        <li><a>Invitations</a></li>
+        <li><a>Cloud Storage Environment Settings</a></li>
+        <li><a>Authentication</a></li>
+    </ul>
+
+    <p class="menu-label">
+        Transactions
+    </p>
+
+    <ul class="menu-list">
+        <li><a>Payments</a></li>
+        <li><a>Transfers</a></li>
+        <li><a>Balance</a></li>
+    </ul>
+</aside>
+            </div>
+            <div class="column content is-two-thirds">
+                <article class="content mt-5">
+                    <h1 class="title">Decision Makers</h1>
+                    
+                    
+<div class="container">
+    
+    
+</div>
+
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <footer class="footer pb-2">
+    <div class="content has-text-centered">
+      <p>
+        &copy BISON project. All rights reserved.
+      </p>
+    </div>
+</footer>
+    </main>    
+</body>
+</html>

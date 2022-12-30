@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">
+    
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    
+    <title> Spectra e-learning platform </title>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+</head>
+<body>
+    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item center" href="/">
+            <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
+        </a>        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-text-weight-bold">
+                Spectra e-learning platform
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <a class="navbar-item" href="/about">
+                About
+            </a>
+            <a class="navbar-item" href="/how-to-use">
+                How to use
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Target groups
+                </a>
+                <div class="navbar-dropdown is-right">
+                    
+                        <a class="navbar-item" href="content/groups-global">
+                            EU and national level of government
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups-local">
+                            Regional and local governance
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups-infrastructure">
+                            Infrastructure management companies and authorities
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups-professionals">
+                            Planners, designers and infrastructure professionals
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups-academia">
+                            Academia and scientific community
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups-society">
+                            NGOS and civil society
+                        </a>
+                                                   
+                </div>
+            </div>
+            <a class="navbar-item" href="/contacts">
+                Contacts
+            </a>        
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+});
+
+});
+</script>
+    
+    <main class="hero is-fullheight">
+        
+<article class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <div class="content m-5">
+                    <h1>contacts</h1>
+                    <h1 class="subtitle">h5p content</h1>
+
+<div id="h5p-container"></div>
+<script type="text/javascript" src="/assets/h5p/main.bundle.js"></script>
+<script type="text/javascript">
+	const el = document.getElementById('h5p-container');
+    const options = {
+        h5pJsonPath:  '/h5p-content/skin_match',
+        frameJs: '/assets/h5p/frame.bundle.js',
+        frameCss: '/assets/h5p/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+        <footer class="footer pb-2">
+    <div class="content has-text-centered">
+      <p>
+        &copy BISON project. All rights reserved.
+      </p>
+    </div>
+</footer>
+    </main>    
+</body>
+</html>

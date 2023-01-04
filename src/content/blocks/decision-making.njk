@@ -1,0 +1,55 @@
+---
+layout: layouts/page.njk
+---
+
+{% set title = blocks.block_d.name %}
+
+<h1 class="title is-spaced">{{ title }}</h1>
+
+<h2 class="subtitle">Information for target groups</h2>
+
+<div class="container">
+  <div class="columns">      
+    <div class="column">
+      <div class="card">                        
+        <div class="card-content">
+          <div class="content">
+            <strong>{{ groups.group_global.name }}</strong>
+          </div>
+        </div>
+        <footer>
+          <a href="notes/group-global-decision-making" class="card-footer-item">Continue reading</a>
+        </footer>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">                        
+        <div class="card-content">
+          <div class="content">
+            <strong>{{ groups.group_local.name }}</strong>
+          </div>
+        </div>
+        <footer>
+          <a href="notes/group-local-decision-making" class="card-footer-item">Continue reading</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="subtitle">Overall Content</h2>
+
+<div class="container">
+  <ul>
+      {% for post in collections.decision_making | sortByPageOrder %}
+        <li>
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+              <p> {{ post.data.description }} </p>
+        </li>
+      {% endfor %}
+        <li>
+            <a href="/">Some other possible content</a>
+            <p>Description of this content</p>
+        </li>
+  </ul>    
+</div>

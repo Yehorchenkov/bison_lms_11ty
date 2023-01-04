@@ -30,6 +30,18 @@
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
+                    Blocks
+                </a>
+                <div class="navbar-dropdown">
+                    {% for key, val in blocks %}
+                        <a class="navbar-item" href="{{ val.ref }}">
+                            {{ val.name }}
+                        </a>
+                    {% endfor %}                               
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
                     Target groups
                 </a>
                 <div class="navbar-dropdown is-right">

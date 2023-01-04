@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">    
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    
+    <title> Spectra e-learning platform </title>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+</head>
+<body>
+    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item center" href="/">
+            <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
+        </a>        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-text-weight-bold">
+                Spectra e-learning platform
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <a class="navbar-item" href="/about">
+                About
+            </a>
+            <a class="navbar-item" href="/how-to-use">
+                How to use
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Blocks
+                </a>
+                <div class="navbar-dropdown">
+                    
+                        <a class="navbar-item" href="content/blocks/overall-instructions">
+                            Overall instruction
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/overall-explanation">
+                            Overall explanation
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/national-specifics">
+                            National specifics
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/decision-making">
+                            Decision Making
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/spatial-planning">
+                            Spatial Planning
+                        </a>
+                                                   
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Target groups
+                </a>
+                <div class="navbar-dropdown is-right">
+                    
+                        <a class="navbar-item" href="content/groups/group-global">
+                            EU and national level of government
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-local">
+                            Regional and local governance
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-infrastructure">
+                            Infrastructure management companies and authorities
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-professionals">
+                            Planners, designers and infrastructure professionals
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-academia">
+                            Academia and scientific community
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-society">
+                            NGOS and civil society
+                        </a>
+                                                   
+                </div>
+            </div>
+            <a class="navbar-item" href="/contacts">
+                Contacts
+            </a>        
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+});
+
+});
+</script>
+    
+    <main class="hero is-fullheight">
+        
+<section class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column content is-one-quarter">
+                <aside class="menu mt-5">    
+    
+    <p class="menu-label">General</p>
+    <ul class="menu-list">
+        <li><a href="/">Home</a></li>        
+        <li><a href="/about">About</a></li>
+    </ul>
+
+    <p class="menu-label">Content</p>
+    <ul class="menu-list">
+        <li><a  href="/content/decision-makers">Decision Makers</a>
+            <ul>
+        
+        <li>
+            <a  href="/modules/decision-making/00_module_0/">Module 0: Introduction</a>
+        </li>
+        
+        <li>
+            <a  class="is-active" href="/modules/decision-making/01_module_1/">Module 1: Spatial Planning</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/02_module_2/">Module 2: Need for the Harmonization</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/03_module_3/">Module 3: Planning Process</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/04_module_4/">Module 4: Planning Tools</a>
+        </li>
+        
+            </ul>
+        </li>
+    </ul>   
+      
+</aside>
+            </div>
+            <div class="column content is-two-thirds">
+                <article class="content mt-5 ml-2 mr-1">
+                    <h1 class="title">Module 1: Spatial Planning</h1>
+                    
+                    <p>Governance of urban development is not possible to separate from the
+global world changes, since globalisation seriously affects the local
+changes and influence of the local politicians is more and more affected
+by external processes and powers. Right governance of the city and good
+political decisions often taken under high level of complexity and
+uncertainty must be supported by professionally well-prepared documents.
+There is a need for continual, complex and updated information, for
+assessment of indicators of the quality of urban life as well as
+submitting the alternative solutions of development of different spheres
+of urban life. Important parts of these instruments are spatial planning
+instruments. Spatial planning instruments are long-term instruments of
+regulation of territorial development.</p>
+<p>Spatial planning represents a broad scale of planning activities,
+differing in the scope of complexity, spatial ties, methods and tools
+but also in the planning doctrines bound not only to the social system.
+Territorial communities at the levels of the towns and regions that form
+the basis of urban society and the space to fulfil the principles of
+urban democracy are the base for spatial and sectoral integration of the
+planning activities of various subjects. These are primarily the
+regional and urban systems in which the different sectoral planning
+activities, representing often controversial and partial interests in
+the territory, meet and which are dominant for safeguarding the
+sustainability of development in the sense of the rule: &quot;Think globally,
+act locally&quot;.</p>
+<p>Transformation of the society in Slovakia as well as European
+integration of Slovakia brings the changes in the conditions not only of
+settlement structure, but in the conditions, objectives and principles
+of its management. Adoption of the new concept of decentralisation and
+modernisation of public administration, the establishment of the second
+level of government and the shift of more than 300 competencies from the
+state administration to the municipalities and regions, strengthen not
+only the position of elected representatives in the state to the
+detriment of the representatives of executive but creates new and better
+conditions for participation of the public and private (entrepreneurial,
+civic) sector in the development of municipalities and regions after
+1989. Thus, the requirement of decentralisation and delegation of the
+power from the state administration to territorial self-government is
+being fulfilled, but it does not remove the numerous competences that
+are divided between the state administration and self-government, with
+impact on efficacy, flexibility and rationality of public administration
+as the whole system. The mentioned changes affect new urban governance
+in the Slovak Republic substantially and increase the responsibility of
+the bodies of local and regional self-government for the development of
+the municipalities, regions and thus of the whole Slovak Republic. In
+the governance of urban development, the public sector insufficiently
+and often formally communicates with private sector. The change in the
+attitudes is gradual and particularly in these localities where the
+civic society well organised in the NGOs.</p>
+<p>It is so especially in the urban areas and in the areas with higher
+educational structure. The change in the background conditions, along
+with the increased responsibility of the local councils brings also the
+requirements for changes in communication between the public and the
+private sector.</p>
+<p>The planning activities/policies, can be identified in 5 main stages and
+3 levels, as follows:</p>
+<ol>
+<li>
+<p>stage: supranational -- European Union, European Commission, UN, ECE
+UN,</p>
+</li>
+<li>
+<p>stage: national -- parliament, government,</p>
+</li>
+<li>
+<p>stage: regional -- regional governments,</p>
+</li>
+<li>
+<p>stage: supralocal -- microregions, associations of municipalities,</p>
+</li>
+</ol>
+<p>4.a stage: local -- local governments, municipalities,</p>
+<ol start="5">
+<li>stage: sublocal -- business and other subjects.</li>
+</ol>
+<p>These 5 stages overlap 3 main pillars of the system of complex spatial
+development management consisting of:</p>
+<ol>
+<li>Spatial relevant planning activities -- spatial planning</li>
+</ol>
+<ul>
+<li>
+<p>Integrative planning activities represented by</p>
+<ul>
+<li>
+<p>landscape planning</p>
+</li>
+<li>
+<p>socioeconomic strategic development planning</p>
+</li>
+<li>
+<p>land use planning</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Sectoral planning activities like transport planning,
+infrastructural planning</p>
+</li>
+</ul>
+<ol start="2">
+<li>
+<p>Spatial monitoring and information management system</p>
+</li>
+<li>
+<p>Spatial management -- implementation control system</p>
+</li>
+</ol>
+<p>Figure 1: The system of spatial development management in Slovakia</p>
+<p><img src="/notes/media/1_image1.png" alt=""></p>
+<p>Source: Scheme © Finka, M.; et al.; 2011</p>
+<h2>Strategic socio-economic development planning</h2>
+<p>Current stage in the progression of strategic development planning is
+characterised by searching for optimal tools, methods and system
+relations, either vertical / hierarchic or horizontal, with other
+planning activities and primarily with land-use planning.</p>
+<p>The basic documents of cross-sectoral strategic development planning are
+the National Strategy of Regional Development, including the Strategic
+Sectoral Plans, the regional operational programmes and the programmes
+of social development and economic development of self-governmental
+districts and municipalities. The National Strategy defines as the
+primary task of regional policy of the Slovak Republic: gradual
+equalisation between the regions, socio-economic cohesion and increase
+in living standard of population.</p>
+<h2>Landscape planning</h2>
+<p>Landscape planning in Slovakia does not create institutionally unified
+system. It is understood as the system of integrative and in the same
+time specific planning activities integrated into the different parts of
+spatial development planning and management system.</p>
+<p>Landscape planning in Slovakia is based on long tradition of
+landscape-ecological and human-ecological assessment of the landscape;
+orientated towards ecological optimization of landscape use based on the
+co-ordination of present and proposed activities with landscape
+relevance following the goals of sustainable development and
+safeguarding the landscape ecological stability, efficient use of
+natural resources, preservation of cultural and natural heritage
+including the landscape character. Land-use planning in this context
+seems to be the tool for the spatial and spatial-temporal integration at
+the highest level as it has to integrate all different interests in the
+space and time represented by different stakeholders, different sectors
+of activities, of different wage and priorities, different spatial
+effects, different length etc.</p>
+<p>In the land-use planning creates the platform for the efficient transfer
+of the landscape sustainable development interest from the professional
+sphere into the society development management, from professional
+planning documents into the political decisions and from partial
+political decisions towards comprehensive territorial governance. In
+this position the land-use planning as the part of spatial planning
+system can be understood as the crucial instrument for the
+implementation of landscape convention in Europe.</p>
+<h2>Land-use planning</h2>
+<p>Land-use planning in the Slovak Republic is continual and systematic
+activity, thanks to preserving its rational, but in the period of
+socialism partially politically deformed, matter which covers the issues
+of planning of complex spatial development at the zonal, local, regional
+and national levels in the crossing activities of inventories, analyses,
+planning, decision-making and monitoring, but up to now without
+opportunities for active territorial management.</p>
+<p>Similarly to other developed countries, also in the Slovak Republic
+land-use planning is implemented in unity of the principles of
+subsidiarity and planning sovereignty of the basic spatial planning
+units -- municipalities.</p>
+<p>Land-use planning systematically and comprehensively addresses the
+spatial arrangement and functional use of land, lays down its
+principles, it is proposed the material and chronological coordination
+of activities which influence environment, ecological stability,
+cultural-historical values of land, land development and landscape in
+accordance with the principles of permanently sustainable development.
+Land-use planning creates the conditions for permanent harmony of all
+activities in the territory with particular regard to care for the
+environment, reaching the ecological balance and ensuring permanently
+sustainable development, desirable using the natural resources and
+protection of natural, civilizational and cultural values.</p>
+<p>Land-use planning includes these tasks and activities:</p>
+<ul>
+<li>
+<p>it determines the directions of spatial arrangement and functional
+land-use,</p>
+</li>
+<li>
+<p>it determines the necessary interventions to land for sanitation,
+reconstruction or recultivation purposes and determines the manner
+of its further use,</p>
+</li>
+<li>
+<p>it defines protected areas, protected buildings, quiet areas and
+protective zones (&quot;hereinafter only protected areas of land&quot;),
+unless they originate under other regulations, and ensures the
+protection of all protected areas of the land,</p>
+</li>
+<li>
+<p>it determines the principles and conditions for the material and
+chronological co-ordination of locally concentrated construction by
+one or several developers,</p>
+</li>
+<li>
+<p>it assesses and evaluates the land-technical effects of buildings
+that are prepared and other measures in the land and proposes their
+scope condition their environmental suitable and safe use,</p>
+</li>
+<li>
+<p>it regulates the location of buildings, determines the
+land-technical, urban and architectonic and environmental
+requirements for their projection and realisation,</p>
+</li>
+<li>
+<p>it determines the principles of the use of natural resources, land
+conditions and whole environment in order that the activities within
+it do not exceed the acceptable load of land, so that it is created
+and preserved the ecological stability of the land,</p>
+</li>
+<li>
+<p>creates the necessary materials for the creation of overall
+construction plans and the technical provision of an area,</p>
+</li>
+<li>
+<p>proposes the order of construction and the use of land,</p>
+</li>
+<li>
+<p>proposes the land-technical and organisational measures necessary
+for improvement of environment, achievement of ecological stability
+and ensuring the permanently sustainable development.</p>
+</li>
+</ul>
+<p>The community objectives are projected into the objectives of planning
+documentation. This should ensure not only spatial conditions of
+sustainable development, access to social and technical infrastructure,
+quality of environment in all parts of territory, but it also guarantees
+the priority of social goals with respect to the goals of all individual
+subjects.</p>
+<p>Land-use planning plays special role in co-ordination of various
+interests in the territory (e.g. in the municipality or in the region),
+but also between the economic sectors (water management, agriculture,
+transport and others) and between the sectors of services (health care,
+social welfare, education, trade) and the private subjects of business
+and non-profit character and individual citizens. Land-use planning
+itself as a system of legally defined rules and processes guarantees,
+respecting social equity in relation to protection of ownership of
+property also with regard to public interests in various spheres of
+social life, from environment through accessibility of education and
+social services up to development of minor social groups.</p>
+<p>The basic tools of land-use planning are land-use planning materials,
+land-use planning documentation and land use decisions. Land-use
+planning materials comprises mainly:</p>
+<p>a)  An urban study, covering partial problems in the area in question.
+It is produced in preparation of land-use plan as a proposal of
+concept of spatial arrangement and functional use of land or for
+making the land plan more detailed or verification of land plan and
+in case of amendment of land plan or for solution of some specific
+land technical, landscape-ecological, environmental or architectonic
+problems in land as a basis for land-use decision-making or if it is
+stipulated otherwise in special regulation.</p>
+<p>b)  A land-use general plan addresses the possibilities of long-term
+spatial arrangement and functional use of land. It is elaborated on
+the basis of analyse and evaluation of land-technical conditions,
+environmental conditions and social conditions of land as well as on
+the basis of analysis and evaluation of land system of ecological
+stability, tendencies of land development and environmental care.</p>
+<p>c)  Land technical materials, specifically focused and systematically
+compiled and updated sets of data characterising the state and
+conditions prevailing in an area, are produced for the whole
+territory of the Slovak Republic and for selected territorial units.</p>
+<p>d)  Other materials used for the production of the land-use planning
+documentation and are produced particularly for the creation and
+protection of the living environment, the protection of nature and
+the creation of the landscape, the protection of cultural and
+historical heritage and technical and transport infrastructure.</p>
+<p>The actual planning tool of land-use planning is the land-use planning
+documentation, represented by the Conception of Territorial Development
+of Slovakia, by regional land-use plans, municipal land-use plans and
+zone plans. The land-use planning documentation represents the basic
+tool of land development and environmental care of the Slovak Republic,
+regions and communes. The departmental overall plans of the central
+bodies of state administration and overall plans for development of
+communes and other programs regarding economic, social or cultural
+development must be in accordance with the binding parts of the land-use
+planning documentation:</p>
+<ol>
+<li>
+<p>Conception of Territorial Development of Slovakia is elaborated for
+the whole territory of the Slovak Republic. It solves the spatial
+arrangement and functional use of land of the Slovak Republic and
+establishes the framework of social, economic, environmental and
+cultural requirements of state for land development, environmental
+care and creation of landscape of the Slovak Republic and its
+regions. The strategy of land development of the Slovakia represents
+the land technical material for its elaboration.</p>
+</li>
+<li>
+<p>Regional land-use plan is elaborated for part of country with
+several communes in which it is necessary to solve specific
+development projects or carry out the activities markedly affecting
+the spatial arrangement and functional use of land. The land-use
+plan of region must be in accordance with the binding part of the
+Overall plan for development of the Slovakia.</p>
+</li>
+<li>
+<p>Land-use plan of a municipality is elaborated for the land of one
+commune or for the land of two or several communes. Land-use plan of
+commune establishes in particular:</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>principles and limits of spatial arrangement and functional use of
+territory of commune in connection with the surrounding territory,</p>
+</li>
+<li>
+<p>permissible, limited and prohibited functional use of areas,</p>
+</li>
+<li>
+<p>principles and directions or environmental care, land system of
+ecological stability including green areas,</p>
+</li>
+<li>
+<p>principles and directions of protection and use of natural
+resources, cultural-historical values and important landscape
+elements,</p>
+</li>
+<li>
+<p>boundaries between continuously built-up area of commune or the area
+determined for building-up (hereinafter only &quot;built up area&quot;) and
+other area of commune,</p>
+</li>
+<li>
+<p>principles and directions of public transport and technical
+facilities and civil facilities,</p>
+</li>
+<li>
+<p>areas for public buildings, for carrying out the sanitation and for
+protected part of land.</p>
+</li>
+</ul>
+<ol start="4">
+<li>Land-use plan of a zone is produced for self-contained parts of a
+settlement formation, especially for its industrial, dwelling,
+central and historical parts and parts of a recreational or
+landscape unit, or for the whole area of a small settlement
+formation, with the aim of providing detailed directions and limits
+for the functional and spatial arrangement of the location of
+buildings. Land-use plan of zone establishes especially:</li>
+</ol>
+<ul>
+<li>
+<p>principles and directions of spatial arrangement and functional use
+of lands, buildings and public and technical facilities of the
+territory,</p>
+</li>
+<li>
+<p>principles and directions of location of buildings in particular
+lands, into the urban areas and building-up conditions of individual
+building lands,</p>
+</li>
+<li>
+<p>lands that are in the built-up area of the commune, buildings on
+lands and portion of possible building-up and acceptability of
+territory use,</p>
+</li>
+<li>
+<p>unbuilt-up lands as building lands including determination of lands
+that according to land-use plan cannot be permanently ranked among
+building lands,</p>
+</li>
+<li>
+<p>protected parts of land,</p>
+</li>
+<li>
+<p>principles and directions of inevitable facilities of buildings and
+connection to public transport and technical facilities of the area,</p>
+</li>
+<li>
+<p>principles and directions of inclusion of buildings into the
+surrounding development, into monumental reservations, into
+monumental zones and into other landscape,</p>
+</li>
+<li>
+<p>location of lawn and planting, important landscape elements and
+other elements of ecological stability on individual lands,</p>
+</li>
+<li>
+<p>material and chronological co-ordination of new development and
+sanitation of existing buildings,</p>
+</li>
+<li>
+<p>lands for public buildings, building enclosure and for carrying out
+the sanitation.</p>
+</li>
+</ul>
+<p>The land-use planning documentation consists of binding part and guiding
+part. The approving authority determines the binding part and guiding
+part of land-use planning documentation. In the binding part it
+determines always public buildings and protected parts of landscape.</p>
+<p>Land-use planning authorities are required to procure land-use planning
+documentation in conformity with the needs of development of the area
+and environmental care within an appropriate and economically feasible
+scope. Land-use plans of communes and land-use plans of zones are always
+procured for the construction of new communes, for the location of
+public buildings and for the material reconstruction, completion or
+sanitation of existing communes or parts thereof, with the aim to
+improve environment, to ensure ecological stability and permanently
+sustainable development.</p>
+<p>Procurement of land-use planning documentation includes:</p>
+<ul>
+<li>
+<p>preparation works,</p>
+</li>
+<li>
+<p>ensuring the processing of researches and analyses,</p>
+</li>
+<li>
+<p>ensuring the processing of commission and its reviewing,</p>
+</li>
+<li>
+<p>ensuring the processing of the draft of solution of land-use
+planning documentation (hereinafter only &quot;draft&quot;) supervision over
+its processing and its reviewing,</p>
+</li>
+<li>
+<p>ensuring the processing of the proposal of land-use planning
+documentation, supervision over its processing and its reviewing,</p>
+</li>
+<li>
+<p>preparation of materials for approving of the proposal of land-use
+planning documentation,</p>
+</li>
+<li>
+<p>ensuring the statement of binding part of land-use planning
+documentation, deposition of land-use planning documentation and
+issuing of registration form and its delivery to the Ministry.</p>
+</li>
+</ul>
+<p>The siting of buildings, the changing of land-use type and the
+protection of important interests in the territory are possible only on
+the basis of a land-use decision, which may be:</p>
+<p>a)  a decision on the siting of a building,</p>
+<p>b)  a decision on the use of land,</p>
+<p>c)  a decision on a protected area or on a protective zone,</p>
+<p>d)  a decision on a building enclosure.</p>
+<p>In the land-use decision the building office shall delineate the area
+for the proposed purpose and shall prescribe the conditions which are to
+ensure the interests of the public in the area, especially conformance
+with the aims and objectives of land-use planning, the material and
+temporal co-ordination of individual buildings and other measures in the
+area and above all care for the environment including architecturally
+and urbanistically valuable objects in the area and shall rule on the
+objections brought by the participants of the proceedings. In the
+decision on the siting of a building the building office in justified
+cases may reserve the right to request submission of more detailed
+materials, project documentation or parts thereof; in accordance with
+these it may then prescribe further conditions which must be included in
+the building permission.</p>
+<p>A decision on the siting of a building determines the building land, the
+building is located in it, there are stated the conditions for sitting
+of a building, the requirements for content of project documentation and
+period of validity of the decision. By the decision on the use of land
+it is permitted the new use of area, there are stated its conditions and
+duration of its validity. Decision on protected part of land states its
+boundaries, prohibits or limits certain activities for the reasons of
+public interest and determines the conditions of its protection,
+especially the activities that cannot be carried out in the area and
+those that may be performed only provided meeting of certain conditions.
+By the decision on building enclosure it is determined the area in which
+it is temporary prohibited or restricted the building activity,
+especially if it could cause difficulties or make the future use of area
+impossible or its organization according to the prepared land-use plan.</p>
+<p>Primarily public participation and the approving powers of the councils
+as the pillars of democracy are the presumptions of optimisation of the
+planning documents in relation to safeguarding of social participation.
+The planning sovereignty of municipalities along with the principle of
+subsidiarity are of special significance. In accordance with the result
+of researches and analyses the land-use planning authority that procures
+the land-use planning documentation, ensures the processing of the
+commission. The commission includes especially the main aims and
+requirements that should be solved in the procured land-use planning
+documentation and detailed requirements regarding the form, scope and
+content of processing of land-use planning documentation.</p>
+<p>The commission is reviewed by the respective land-use planning authority
+who procures the land-use planning documentation with the relevant
+communes, with the relevant self-governing regions and with the relevant
+legal persons and it shall agree with the relevant authorities. The
+communes shall review the commission for land-use plan of commune and
+the commission for the land-use plan of zone with the regional building
+office. The way of negotiation of the commission for the Overall plan of
+development of the Slovakia is determined by the Ministry.</p>
+<p>Public will be informed on reviewing of the commission of land-use plan
+by the land-use planning authority who procures the land-use planning
+documentation, namely in effective form and way that is usual in the
+respective locality. The commission draft must be displayed for public
+inspection. Public is entitled to submit comments on the commission
+draft within 30 days from the date of notification. The procurer shall
+determine the adequate deadline for commission reviewing that must not
+be less than 30 days from the date of delivery of the notice on
+reviewing of the commission draft. If the relevant commune, the relevant
+self-governing region documentation at the regional and local levels is
+declaration of the public works that directly or indirectly support
+safeguarding of social equity.</p>
+<p>Land-use planning is a tool of the planning policy. The value system of
+the society is being projected into the legally defined priorities and
+objectives of planning, meeting of which is controlled at all levels by
+the state. Approval of the plan that is the key instrument of planning
+is the decision of the council and is of legal effect in the respective
+area, but only under the condition of its accordance with the objectives
+and rights guaranteed by the state. The state as guarantor of the public
+interest plays an important role in spite of the planning sovereignty of
+the municipalities.</p>
+<h2>Recommended readings:</h2>
+<ul>
+<li>
+<p>Finka, M.; Petríková, D.; Jamečný, Ľ.; et al. 2011. Priestorové
+plánovanie. Bratislava : Road, 2011. 240 s. ISBN 978-80-88999-39-3.</p>
+</li>
+<li>
+<p>Finka, M, Petríková D., Eds., 2000. Spatial Development and Planning
+in European Integration. FA STU-ROAD Bratislava.</p>
+</li>
+<li>
+<p>Finka, M., Přikryl, Z., Scholich, D., Turowski, G. 1997.
+Deutsch-Slowakisch-Tschechisches Handbuch der Planungsbegriffe /
+Slovensko-česko-nemecká príručka územno-plánovacej terminológie /
+Česko-německo-slovenská příručka územně plánovací terminologie, ARL
+Hannover/ROAD Bratislava, ISBN 3-88838-521-0.</p>
+</li>
+<li>
+<p>Finka, M., Přikryl, Z., Semsroth, K. 2000.
+Österreichisch-Slowakisch-Tschechisches Handbuch der
+Raumplanungsbegriffe/Slovensko-česko-rakúska príručka
+územnoplánovacej terminológie / Česko-rakousko-slovenská příručka
+územně plánovací terminologie, ARL Hannover, ISBN 3-88838-528-8.</p>
+</li>
+</ul>
+
+                    
+                </article>
+                <nav class="pagination mb-3" role="navigation" aria-label="pagination">
+                                        
+                    
+                        <a class="pagination-next" title="Module 2: Need for the Harmonization" href="/modules/decision-making/02_module_2/">Next</a>
+                     
+
+                     
+                    
+                        <a class="pagination-previous" title="Module 0: Introduction" 
+                           href="/modules/decision-making/00_module_0/"> Previous</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <footer class="footer pb-2">
+    <div class="content has-text-centered">
+      <p>
+        &copy BISON project. All rights reserved.
+      </p>
+    </div>
+</footer>
+    </main>    
+</body>
+</html>

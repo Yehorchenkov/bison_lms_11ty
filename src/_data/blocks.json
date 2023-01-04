@@ -1,0 +1,12 @@
+{
+    "block_a": {"name": "Overall instruction",
+                "ref": "content/blocks/overall-instructions"},
+    "block_b": {"name": "Overall explanation",
+                "ref": "content/blocks/overall-explanation"},
+    "block_c": {"name": "National specifics",
+                "ref": "content/blocks/national-specifics"},
+    "block_d": {"name": "Decision Making",
+                "ref": "content/blocks/decision-making"},
+    "block_e": {"name": "Spatial Planning",
+                "ref": "content/blocks/spatial-planning"}        
+}

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="stylesheet" href="/styles/helpers.css">
-    <link rel="stylesheet" href="/styles/cards.css">
-    
+    <link rel="stylesheet" href="/styles/cards.css">    
     <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
     
     <title> Spectra e-learning platform </title>
@@ -52,31 +51,59 @@
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
+                    Blocks
+                </a>
+                <div class="navbar-dropdown">
+                    
+                        <a class="navbar-item" href="content/blocks/overall-instructions">
+                            Overall instruction
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/overall-explanation">
+                            Overall explanation
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/national-specifics">
+                            National specifics
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/decision-making">
+                            Decision Making
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/spatial-planning">
+                            Spatial Planning
+                        </a>
+                                                   
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
                     Target groups
                 </a>
                 <div class="navbar-dropdown is-right">
                     
-                        <a class="navbar-item" href="content/groups-global">
+                        <a class="navbar-item" href="content/groups/group-global">
                             EU and national level of government
                         </a>
                     
-                        <a class="navbar-item" href="content/groups-local">
+                        <a class="navbar-item" href="content/groups/group-local">
                             Regional and local governance
                         </a>
                     
-                        <a class="navbar-item" href="content/groups-infrastructure">
+                        <a class="navbar-item" href="content/groups/group-infrastructure">
                             Infrastructure management companies and authorities
                         </a>
                     
-                        <a class="navbar-item" href="content/groups-professionals">
+                        <a class="navbar-item" href="content/groups/group-professionals">
                             Planners, designers and infrastructure professionals
                         </a>
                     
-                        <a class="navbar-item" href="content/groups-academia">
+                        <a class="navbar-item" href="content/groups/group-academia">
                             Academia and scientific community
                         </a>
                     
-                        <a class="navbar-item" href="content/groups-society">
+                        <a class="navbar-item" href="content/groups/group-society">
                             NGOS and civil society
                         </a>
                                                    
@@ -146,13 +173,88 @@ $navbarBurgers.forEach( el => {
 </section>
 
 <section class="section">
-    <h1 class="title has-text-centered">Information for target groups</h1>
-    <hr class="solid">
+    <h1 class="title has-text-centered">Blocks</h1>    
     <div class="container">
     <div class="columns">
         
             <div class="column">
-                <a href="content/groups-global">
+                <div class="card">                        
+                    <div class="card-content">
+                        <div class="content">
+                            <strong >Overall instruction</strong>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="content/blocks/overall-instructions" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        
+            <div class="column">
+                <div class="card">                        
+                    <div class="card-content">
+                        <div class="content">
+                            <strong >Overall explanation</strong>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="content/blocks/overall-explanation" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        
+            <div class="column">
+                <div class="card">                        
+                    <div class="card-content">
+                        <div class="content">
+                            <strong >National specifics</strong>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="content/blocks/national-specifics" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        
+            <div class="column">
+                <div class="card">                        
+                    <div class="card-content">
+                        <div class="content">
+                            <strong  style="color:green" >Decision Making</strong>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="content/blocks/decision-making" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        
+            <div class="column">
+                <div class="card">                        
+                    <div class="card-content">
+                        <div class="content">
+                            <strong >Spatial Planning</strong>
+                        </div>
+                    </div>
+                    <footer>
+                        <a href="content/blocks/spatial-planning" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        
+    </div>
+</div>
+</section>
+
+<hr class="solid">
+
+<section class="section">
+    <h1 class="title has-text-centered">Information for target groups</h1>    
+    <div class="container">
+    <div class="columns">
+        
+            <div class="column">
+                <a href="content/groups/group-global">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
@@ -169,7 +271,7 @@ $navbarBurgers.forEach( el => {
             </div>            
         
             <div class="column">
-                <a href="content/groups-local">
+                <a href="content/groups/group-local">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
@@ -186,11 +288,11 @@ $navbarBurgers.forEach( el => {
             </div>            
         
             <div class="column">
-                <a href="content/groups-infrastructure">
+                <a href="content/groups/group-infrastructure">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
-                                <img src="images/EU-flag.jpg" alt="EU flag">
+                                <img src="images/EU-countries-flags.jpg" alt="EU countries flags">
                             </figure>
                         </div>              
                         <div class="card-content">
@@ -203,11 +305,11 @@ $navbarBurgers.forEach( el => {
             </div>            
         
             <div class="column">
-                <a href="content/groups-professionals">
+                <a href="content/groups/group-professionals">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
-                                <img src="images/EU-flag.jpg" alt="EU flag">
+                                <img src="images/EU-countries-flags.jpg" alt="EU countries flags">
                             </figure>
                         </div>              
                         <div class="card-content">
@@ -220,11 +322,11 @@ $navbarBurgers.forEach( el => {
             </div>            
         
             <div class="column">
-                <a href="content/groups-academia">
+                <a href="content/groups/group-academia">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
-                                <img src="images/EU-flag.jpg" alt="EU flag">
+                                <img src="images/EU-countries-flags.jpg" alt="EU countries flags">
                             </figure>
                         </div>              
                         <div class="card-content">
@@ -237,11 +339,11 @@ $navbarBurgers.forEach( el => {
             </div>            
         
             <div class="column">
-                <a href="content/groups-society">
+                <a href="content/groups/group-society">
                     <div class="card shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
-                                <img src="images/EU-flag.jpg" alt="EU flag">
+                                <img src="images/EU-countries-flags.jpg" alt="EU countries flags">
                             </figure>
                         </div>              
                         <div class="card-content">

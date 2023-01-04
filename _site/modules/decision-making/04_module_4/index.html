@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">    
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    
+    <title> Spectra e-learning platform </title>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+</head>
+<body>
+    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item center" href="/">
+            <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
+        </a>        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-text-weight-bold">
+                Spectra e-learning platform
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <a class="navbar-item" href="/about">
+                About
+            </a>
+            <a class="navbar-item" href="/how-to-use">
+                How to use
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Blocks
+                </a>
+                <div class="navbar-dropdown">
+                    
+                        <a class="navbar-item" href="content/blocks/overall-instructions">
+                            Overall instruction
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/overall-explanation">
+                            Overall explanation
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/national-specifics">
+                            National specifics
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/decision-making">
+                            Decision Making
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/spatial-planning">
+                            Spatial Planning
+                        </a>
+                                                   
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Target groups
+                </a>
+                <div class="navbar-dropdown is-right">
+                    
+                        <a class="navbar-item" href="content/groups/group-global">
+                            EU and national level of government
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-local">
+                            Regional and local governance
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-infrastructure">
+                            Infrastructure management companies and authorities
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-professionals">
+                            Planners, designers and infrastructure professionals
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-academia">
+                            Academia and scientific community
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-society">
+                            NGOS and civil society
+                        </a>
+                                                   
+                </div>
+            </div>
+            <a class="navbar-item" href="/contacts">
+                Contacts
+            </a>        
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+});
+
+});
+</script>
+    
+    <main class="hero is-fullheight">
+        
+<section class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column content is-one-quarter">
+                <aside class="menu mt-5">    
+    
+    <p class="menu-label">General</p>
+    <ul class="menu-list">
+        <li><a href="/">Home</a></li>        
+        <li><a href="/about">About</a></li>
+    </ul>
+
+    <p class="menu-label">Content</p>
+    <ul class="menu-list">
+        <li><a  href="/content/decision-makers">Decision Makers</a>
+            <ul>
+        
+        <li>
+            <a  href="/modules/decision-making/00_module_0/">Module 0: Introduction</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/01_module_1/">Module 1: Spatial Planning</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/02_module_2/">Module 2: Need for the Harmonization</a>
+        </li>
+        
+        <li>
+            <a  href="/modules/decision-making/03_module_3/">Module 3: Planning Process</a>
+        </li>
+        
+        <li>
+            <a  class="is-active" href="/modules/decision-making/04_module_4/">Module 4: Planning Tools</a>
+        </li>
+        
+            </ul>
+        </li>
+    </ul>   
+      
+</aside>
+            </div>
+            <div class="column content is-two-thirds">
+                <article class="content mt-5 ml-2 mr-1">
+                    <h1 class="title">Module 4: Planning Tools</h1>
+                    
+                    <p>This module is dealing with the tools on how to minimise habitat
+fragmentation due to various factors, such as transportation or land use
+changes. Different planning tools aimed at minimising and reducing
+habitat fragmentation are described.</p>
+<p>The planning tools can be split into four main categories:</p>
+<ol>
+<li>
+<p>Legal, institutional and financial measures</p>
+</li>
+<li>
+<p>Technical and ecological measures</p>
+</li>
+<li>
+<p>Managerial and organizational measures</p>
+</li>
+<li>
+<p>Monitoring measures</p>
+</li>
+</ol>
+<p>In the rest of the material, we will take a closer look at these
+categories and provide necessary context and useful examples for
+improved understanding of these tools.</p>
+<h2>Recommended readings:</h2>
+<ul>
+<li>
+<p>Iuell, B., Bekker, G. J., Cuperus, R., Dufek, J., Fry, G., Hicks,
+C., ... &amp; Tørsløv, N. I. (2003). COST 341, Habitat fragmentation
+due to Transportation Infrastructure. <em>Wildlife and Traffic: A
+European Handbook for Identifying Conflicts and Designing Solutions.
+Delft: KNNV Publisher</em>.</p>
+</li>
+<li>
+<p>Trangreen Project Consortium (2019) Keeping Nature Connected --
+Environmental Impact Assessment (EIA) for Integrated Green
+Infrastructure Planning [ONLINE] available at:
+http://www.interreg-danube.eu/uploads/media/approved_project_output/0001/35/f5374e0aee3813cfd352c8005b5ceb0da52d52c5.pdf
+[accessed March 10, 2020]</p>
+</li>
+<li>
+<p>Trangreen Project Consortium (2019) Wildlife and Traffic in the
+Carpathians: Guidelines how to minimize the impact of transport
+infrastructure development on nature in the Carpathian countries
+[ONLINE] available at:</p>
+</li>
+</ul>
+<p>http://www.interreg-danube.eu/uploads/media/approved_project_output/0001/35/02caaafe3c1c1365f76574e754ddbdc4e1af4a7a.pdf
+[accessed March 10, 2020]</p>
+<h2>Legal, institutional and financial measures</h2>
+<p>Under the first category belong the planning tools and measures related
+to the legal system, institutional arrangements and financial matters.
+Below are some examples from practice.</p>
+<h2>Roadless and low traffic areas by law</h2>
+<p>Compensatory measures may be required in the case of (IUELL ET AL,
+2003):</p>
+<p>I.  a) International legislation: the EU Birds Directive (1979) and the
+EU Habitats Directive (1992).</p>
+<p>b) National legislation on compensation.</p>
+<p>Underlying principles when compensation is required by international or
+national legislation:</p>
+<ul>
+<li>
+<p>Species and habitats protected under (inter)national regulations
+require stringent constraints within the planning process and it is
+usually difficult to justify the social necessity for developments
+in protected areas, or areas with protected species.</p>
+</li>
+<li>
+<p>Financial compensation or compensation in terms of other values than
+the impacted ones (trading-off) should not be permitted.</p>
+</li>
+<li>
+<p>Ecological compensation must address physical and functional aspects
+of the impact.</p>
+</li>
+<li>
+<p>According to the Birds and Habitats Directives compensatory measures
+should be implemented before the start of the infrastructure
+development.</p>
+</li>
+</ul>
+<p>II. Formal compensation policy: non-legislative regulation, e.g. laid
+down in national policy plans.</p>
+<p>Where compensation is linked to formal national policy usually less
+stringent measures are required:</p>
+<ul>
+<li>
+<p>Economic or social necessity may, in exceptional cases, justify
+project development, under the condition that ecological damage is
+compensated for.</p>
+</li>
+<li>
+<p>Compensation in terms of 'comparable' ecological values as well as
+financial compensation are both permitted, though less preferable.</p>
+</li>
+<li>
+<p>Compensatory measures do not necessarily have to be implemented
+before the project starts.</p>
+</li>
+</ul>
+<p>III. Compensation based on voluntary agreements, implying that it has
+neither a legislative nor a policy basis.</p>
+<p>Non-legislative policy requires less stringent conditions on the
+implementation of the compensation principle. In the assessment process,
+socio-economic and nature conservation interests are weighed against
+each other.</p>
+<p><strong>Codification of the rules by legal documents (e.g. land use plans, the
+concept of ecological compensation, legal obligations, special taxes,
+allowances...)</strong></p>
+<p>Ensuring sufficient ability to pass the transportation network is from
+the point of view of achieving migrating capacity only one step. In the
+country of central European type with dense settlement structure there
+exist a number of other barriers in form of built-up areas, intensive
+agricultural areas etc. Areas of species dispersion are therefore in
+form of small islands and populations are mutually separated by
+landscape which as a whole is not fitting for permanent existence.
+Possibilities to connect these populations are still diminishing and
+gradually are turning into small corridors. Slovak and Czech legal
+system ensures protection of these corridors in form of supra-regional,
+regional and local network of territorial system of ecological stability
+(HLAVÁČ &amp; ANDĚL, 2001).</p>
+<p>When managing the ability to pass across the highways it is important to
+include wider territorial relations of the surrounding landscape such as
+territorial studies, plans, projects and territorial systems of
+ecological stability. These documents are connected to spatial planning
+guarantees protection of the elements of the territorial systems of
+ecological stability even in the future. It is crucial to include the
+knowledge of dispersion of species, their migration requirements, wider
+territorial migration context and concrete terrain configuration in the
+place of construction (HLAVÁČ &amp; ANDĚL, 2001).</p>
+<p>Significant problem with spatial planning is the issue of future use of
+plots in the surrounding of constructed passings. In practice it can
+occur that in the future the constructions which are limiting or
+directly disturbing the functionality of constructed passings are
+permitted. Such constructions are causing on the one hand
+non-passability of the line barrier and, on the other hand, also are
+causing losing the purpose of previously invested money for building a
+passing (HLAVÁČ &amp; ANDĚL, 2001).</p>
+<p>The connection between ensuring the ability to pass the highways and the
+territorial systems of ecological stability and spatial planning can be
+summarized in the following principles:</p>
+<ul>
+<li>
+<p>The ability to pass the line barriers needs to be dealt with in
+wider territorial context taking into account the status of the
+landscape, extension and migration of species</p>
+</li>
+<li>
+<p>One of the essential background documents when dealing with ability
+to pass are the elaborated territorial systems of ecological
+stability on all levels</p>
+</li>
+<li>
+<p>Ability to pass of the highways for freely living species cannot be
+limited to crossing of elements of territorial systems of ecological
+stability</p>
+</li>
+<li>
+<p>When designing the passings it is important to also deal with the
+issue of surrounding plots which are conditioning the functionality
+of the passing. Ensuring protection of these plots can take place
+with a number of measures (agreement/contract with owner, announcing
+it as an element of territorial system of ecological stability,
+regulation of huntsmanship, building ban etc.). Ensuring protection
+of these plots cannot be just requested from the investor, but the
+initiative should be taken by relevant nature protection body.</p>
+</li>
+</ul>
+<h2>Technical and ecological measures</h2>
+<p>The largest category includes a variety of technical measures and tools
+implemented in the countryside and urban areas to mitigate the negative
+effects of land use change and transportation. The list of these
+measures is extensive, so we provide just a short overview. For more
+detailed list and concrete specifications, you can find information in
+the list of recommended readings.</p>
+<h2>Fauna Passages and other Technical Solution</h2>
+<p>Fauna passages and other structures adapted to increase the crossing of
+transport infrastructure by animals should never be considered in
+isolation. They should be part of a general 'permeability concept' to
+maintain connectivity within and between populations of animals. This
+concept emphasizes connectivity between habitats at least at a regional
+scale and considers not only the transport infrastructure but also the
+distribution of habitats and other potential barriers such as built-up
+areas. Fauna passages can then be regarded as small but important
+elements used to connect habitats by enhancing the movements of animals
+across transport infrastructure (IUELL ET AL, 2003).</p>
+<p>At a more specific level, a permeability concept can be produced for a
+particular road or railway project. All connecting elements, such as
+tunnels, viaducts or elevated roads, stream and river crossings,
+culverts, and passages designed specially for animals should be
+integrated into the permeability concept. Again, the primary objective
+must be to maintain the permeability of the transport infrastructure for
+wildlife to ensure the connectivity of the habitats at a larger scale
+(IUELL ET AL, 2003).</p>
+<p>Mitigation measures, in particular fauna passages, are necessary if
+transport infrastructure bisects important patches of habitat, creates a
+barrier to migration routes and if avoidance by altering the route is
+impossible. Fauna passages are necessary for animals where (IUELL ET AL,
+2003):</p>
+<ul>
+<li>
+<p>A road or railway line results in significant damage or loss of
+special habitats, communities or species.</p>
+</li>
+<li>
+<p>A road or railway line affects species particularly sensitive to
+barriers and traffic mortality.</p>
+</li>
+<li>
+<p>The general permeability of the landscape, i.e. the connectivity
+between habitats in the wider countryside, is significantly impaired
+by the infrastructure development.</p>
+</li>
+<li>
+<p>Fauna passages are considered to be a suitable solution for
+mitigating the barrier effect in the specific context.</p>
+</li>
+<li>
+<p>Other less costly measures are unlikely to be effective.</p>
+</li>
+<li>
+<p>The road or railway line is fenced along its length.</p>
+</li>
+</ul>
+<h2>Tunnels</h2>
+<p>A tunnel may be the best design solution to protect high-value
+landscapes. Though construction costs may be high the benefits to the
+natural environment will be incalculable (see Chapter 6). The scale of
+these benefits is dependent upon the method of tunnel construction.
+Bored tunnels allow sites of high nature conservation value to remain
+undisturbed and are least damaging environmentally. Cut-and-cover
+tunnels may be more appropriate for sites of lower conservation
+interest, but where the maintenance of connectivity between habitats is
+desirable. Methods of habitat restoration can be employed to provide
+safe crossing for a range of wildlife (IUELL ET AL, 2003).</p>
+<p>Siting of the tunnel portals, their landscape treatment, the alignment
+of the approach road and the design and siting of any ventilation shafts
+and control buildings are the major environmental design issues for any
+tunnels. They may intrude into habitats and cause disturbance and
+pollution locally for sensitive species (IUELL ET AL, 2003).</p>
+<p>A cut-and-cover treatment may be a desirable alternative to the open
+cutting as it permits the landscape to be restored over the line of the
+infrastructure. The landscape elements appropriate to the particular
+location should be carefully designed to be carried over the engineering
+structure, which must be capable if necessary of supporting large forest
+tree species. The reuse of the original soils should be considered if
+they can be stripped and stored in such a way as to minimise compaction
+and loss of structure (IUELL ET AL, 2003).</p>
+<p>The soil profile should be constructed to match the adjoining profile in
+order to reproduce the hydrological characteristics as well as the
+physical structure and chemical properties of the original substrates.
+Where the cut-and-cover tunnel is to be used by a range of fauna, the
+natural vegetation type for the species' habitat should be planted over
+the tunnel and on the approaches (IUELL ET AL, 2003).</p>
+<h2>Use of vegetation</h2>
+<p>At the design stage it is important to understand the type of vegetation
+and species composition that is appropriate to the setting of the new
+transport infrastructure. Integration with the landscape, nature
+conservation benefit and passenger interest are key considerations.
+Where possible, species included in planting designs should be locally
+indigenous (especially in rural areas) and occur naturally on the soil
+type adjacent to the route. They should not require irrigation for
+successful establishment. Where suitable, natural regeneration should
+also be considered as an alternative method for vegetating new
+landscapes. Allowing vegetation to regenerate naturally will produce a
+habitat most suited to the local surroundings. Some Mediterranean
+regions have special legislation to regulate the use of vegetation on
+verges. The high number of forest fires that begin beside roads has
+obliged highway authorities for example Catalonia in northeastern Spain,
+to forbid the use of pyrophytic plants such as rock roses on road
+verges. In the same region there is a requirement to prevent continuity
+of canopies between trees and shrubs on the verges and the forest trees
+on adjacent land (IUELL ET AL, 2003).</p>
+<h2>Cuttings and embankments</h2>
+<p>Embankments are suited more to wide, shallow valleys as they (IUELL ET
+AL, 2003):</p>
+<ul>
+<li>
+<p>Can maintain some degree of connectivity through the use of
+appropriately sited and dimensioned culverts and underpasses. In
+other situations, lower alignment may allow the construction of an
+overpass.</p>
+</li>
+<li>
+<p>Can be integrated with the adjacent landform by good use of
+earthworks and planting; and</p>
+</li>
+<li>
+<p>Offer more scope for screen planting.</p>
+</li>
+</ul>
+<p>Where lateral views of the infrastructure are intrusive, a cutting is
+one of the best means of hiding it. However, cuttings may themselves
+become intrusive, fragmenting habitats, creating a notch in the skyline
+or taking the edge of one side of a hill leaving an ugly scar. A curved
+alignment over high ground and the careful siting of bridges can help
+reduce the impacts of a cutting on the skyline. Bridges can be adapted
+to provide a green connection for fauna and flora (IUELL ET AL, 2003).</p>
+<p>Cuttings are usually constructed to a uniform gradient of 1:2 and
+contrast with natural gradients which are more varied and irregular.
+Good design can provide better integration with natural landforms and
+provide opportunities for a variety of habitats to be created (IUELL ET
+AL, 2003).</p>
+<ul>
+<li>
+<p>Different rock types give rise to different natural slopes and
+cuttings should reflect these where possible.</p>
+</li>
+<li>
+<p>Minor cutting faces especially in upland areas can produce rock
+exposures with potential nature conservation value.</p>
+</li>
+<li>
+<p>It is desirable to reveal the natural bedding plane of the rock to
+provide a stable slope that will not require for reasons of safety
+the use of catch fences, wire mesh or other unnatural engineering
+elements.</p>
+</li>
+<li>
+<p>In areas of woodland and rough pasture, an irregular cutting surface
+finish will provide better integration with the adjacent areas. They
+can provide niche habitats for certain plants and invertebrates.</p>
+</li>
+<li>
+<p>There are benefits in rounding off the tops of cuttings to a gentle
+profile to create a smooth transition to the natural landform.</p>
+</li>
+</ul>
+<h2>Crossing valleys</h2>
+<p>Infrastructure can be carried across valleys on embankments or viaducts.
+Viaducts have environmental advantages subject to the choice of the
+appropriate crossing point.</p>
+<p>Viaducts are suited to narrow, steep-sided valleys as they (IUELL ET AL,
+2003):</p>
+<ul>
+<li>
+<p>Minimise landtake and fragmentation within a valley by allowing
+watercourses and any existing nature conservation interest to
+continue under the structure;</p>
+</li>
+<li>
+<p>Maintain connectivity for species movement; and</p>
+</li>
+<li>
+<p>Retain views up and down the valley.</p>
+</li>
+</ul>
+<h2>Fencing</h2>
+<p>The main reason for fencing along the highway is to limit the contact
+between automobiles and species crossing the highway. It is obvious that
+the ideal solution would be sufficient number of passages of all
+categories together with full fencing of all segments between these
+objects. Practical experience, though, demonstrate difficult
+implementation of these theoretical findings. Firstly, it is important
+to stress that fencing in order to fulfil its function must be kept in
+functional state which turns out to be a difficult requirement. Whenever
+the integrity of fencing is destroyed, species can get into the fenced
+area and act confused, attempts to flee, hits the fencing and eventually
+up on the road hit by passing vehicles. The same issue is with wrongly
+finished fencing where species are also frequently entering the fenced
+area (HLAVÁČ &amp; ANDĚL, 2001).</p>
+<p>Proper positioning of fencing is of crucial importance, too. From the
+point of view of limiting the entrance of species into highway space the
+fencing should be constructed between maintained grass stripe along the
+road and the beginning of line of trees or bushes. Positioning the fence
+to the edge of the hillside with surrounding vegetation (often several
+tens of meters from the edge of the highway) is inappropriate. In these
+places the fencing is very often damaged by boar species, agriculture
+machines or humans. Locating fencing in the proximity of the highway
+behind the maintained stripe of grass allows the panicking species, e.g.
+during agricultural activities, to stop at the vegetation stripe in
+front of fencing, evaluate the situation, calm down and leave the
+highway space. In case the fencing is located inside the vegetation
+stripe, the panicking species from the fields are often looking for
+shelter created by surrounding highway vegetation and attempts to get
+into the fenced area. In case of boar species such an attempt is
+oftentimes successful (HLAVÁČ &amp; ANDĚL, 2001).</p>
+<h2>Noise and glass walls</h2>
+<p>Noise barriers are constructed close to human settlements to reduce
+noise emissions, although in certain situations they are erected to
+protect, for example, colonies of breeding birds from disturbance.
+However, even if not constructed for wildlife they have to be mentioned
+because they can increase habitat fragmentation even more than fences.
+In densely built-up areas noise barriers do not usually provide any
+problems in this respect. In more natural surroundings they are complete
+barriers for all terrestrial animals (IUELL ET AL, 2003).</p>
+<p>Noise barriers built of concrete, wood or other material are complete
+barriers for animals. In natural environments they must therefore be
+combined with fauna passages. This has to be considered also in cases of
+low noise screens along railway lines, which may hinder the movement of
+small vertebrates like snakes, which without barriers would not have
+been greatly affected by the railway line. In combination with passages
+noise screens can function as guiding structures. Noise screens are
+usually built on a solid concrete base. They thus completely isolate the
+road verges from the surrounding habitats. For small animals, especially
+invertebrates, they are therefore a more complete barrier than fences.
+No experience exists as to the effects on the animal populations or
+regarding possible solutions to reduce the barrier effects, such as
+small openings at the base of the structures (IUELL ET AL, 2003).</p>
+<p>Transparent screens are erected in areas where planners wish the drivers
+or passengers to be able to see the surrounding landscape. They entail a
+high risk of mostly fatal collisions for birds, which don't recognise
+the wall as an obstacle, in particular where natural vegetation can be
+seen through the glass or where the glass reflects bushes or trees. It
+has been shown that with appropriate markings the number of collisions
+can be reduced substantially (IUELL ET AL, 2003).</p>
+<h2>Managerial and organizational measures</h2>
+<p>The barrier effect of roads for small animals is partly an effect of the
+width of the tarmacked surface. The number of vehicles and their speed,
+however, also affect the number of animals killed. Different types of
+measures can be beneficial for wildlife (IUELL ET AL, 2003):</p>
+<p><strong>Reducing the width of the infrastructure</strong></p>
+<ul>
+<li>
+<p>Agricultural and forestry roads which are not tarmacked are more
+easily crossed by small animals, e.g. invertebrates.</p>
+</li>
+<li>
+<p>On agricultural roads an alternative to a fully tarmacked road is
+the provision of two concrete tractor-strips. The area between the
+strips is kept vegetated, thus providing cover for invertebrates.</p>
+</li>
+</ul>
+<p><strong>Reducing the amount of traffic</strong></p>
+<ul>
+<li>
+<p>Temporary closure of roads is a suitable measure in cases where
+animals only cross a road during a limited period. It is
+recommended, for example, to protect amphibians on their migration
+to spawning grounds (closure during humid nights in spring) or to
+allow wild reindeer to move to their wintering grounds undisturbed
+(closure of a road during critical periods in winter).</p>
+</li>
+<li>
+<p>Any other common measure to reduce the amount of traffic (one-way
+streets, restricted access, etc.) can also be used as a measure to
+reduce collisions with wildlife.</p>
+</li>
+</ul>
+<p><strong>Reducing the speed of the vehicles</strong></p>
+<ul>
+<li>
+<p>Reducing the width of the road can reduce the speed of the vehicles
+and thus reduce the risk of collisions with mammals. This measure is
+suitable for rural roads with relatively light traffic.</p>
+</li>
+<li>
+<p>Temporarily or permanently lowered speed limits at high-risk spots
+can contribute to reducing the risk of collisions with mammals.</p>
+</li>
+<li>
+<p>Where collisions happen mainly during the night, speed limits at
+night might be sufficient.</p>
+</li>
+<li>
+<p>Speed ramps are recommended on roads with light traffic.</p>
+</li>
+</ul>
+<h2>Monitoring measures</h2>
+<p>After the construction of roads, railways and waterways the application
+of monitoring is of crucial importance as it is this mechanism that
+allows planners to check the effectiveness of measures which have been
+applied in order to reduce the infrastructure's impact on habitat
+fragmentation. A well-designed monitoring scheme will help to achieve
+several goals (IUELL ET AL, 2003):</p>
+<ul>
+<li>
+<p>To detect failures in the installation, construction or maintenance
+of measures.</p>
+</li>
+<li>
+<p>To establish if the mitigation measures fulfil their purpose.</p>
+</li>
+<li>
+<p>To evaluate if the measures provide long term mitigation for the
+species and habitats.</p>
+</li>
+</ul>
+<p>In short, monitoring will contribute to establishing whether or not
+suitable and sufficient mitigation measures have been provided for
+during the planning and construction phases of a transport
+infrastructure, guaranteeing minimum impact on the fragmentation of
+animal populations and habitats (IUELL ET AL, 2003).</p>
+<p>The dissemination of the results of the monitoring scheme is also very
+important for gaining knowledge on the development of more effective and
+less expensive measures. Therefore, important objectives of monitoring
+include helping the infrastructure planners to (IUELL ET AL, 2003):</p>
+<ul>
+<li>
+<p>Avoid repeating mistakes.</p>
+</li>
+<li>
+<p>Provide new information for improving the design of mitigation
+measures.</p>
+</li>
+<li>
+<p>Identify the measures with an optimum relationship between cost and
+benefit.</p>
+</li>
+<li>
+<p>Save money for future projects.</p>
+</li>
+</ul>
+<p>Monitoring schemes should be an integral part of the routine technical
+management that leads to the adaptation and improvement of the design of
+measures which avoid or reduce the effects of transport infrastructure
+on habitat fragmentation (IUELL ET AL, 2003).</p>
+<p>All mitigation measures have to be routinely inspected and maintained to
+ensure their long-term functionality. Maintenance considerations,
+including cost, have to be considered at the earliest possible stage,
+i.e. when a measure is designed. Planning should define the type and
+frequency of maintenance procedures and the organisation of and
+responsibility for maintenance. In most cases maintenance will be
+carried out by road maintenance teams, but giving a mandate to nature
+conservation organisations and farmers, etc., has proven to be a good
+alternative for certain types of measures. Specific maintenance aspects
+are dealt with in the sections on the different measures (IUELL ET AL,
+2003).</p>
+<p>The maintenance and monitoring of measures are closely linked.
+Monitoring procedures are mainly designed to check whether a measure
+fulfils its purpose, but at the same time they can identify maintenance
+deficits and needs. Monitoring requires clear definition of the
+objectives of the measures, and programmes should be planned in parallel
+with the design of the measures themselves (IUELL ET AL, 2003).</p>
+
+                    
+                </article>
+                <nav class="pagination mb-3" role="navigation" aria-label="pagination">
+                                        
+                    
+                        <a class="pagination-next is-disabled">Next</a>
+                     
+
+                     
+                    
+                        <a class="pagination-previous" title="Module 3: Planning Process" 
+                           href="/modules/decision-making/03_module_3/"> Previous</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <footer class="footer pb-2">
+    <div class="content has-text-centered">
+      <p>
+        &copy BISON project. All rights reserved.
+      </p>
+    </div>
+</footer>
+    </main>    
+</body>
+</html>

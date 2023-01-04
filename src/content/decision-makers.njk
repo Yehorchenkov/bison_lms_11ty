@@ -5,7 +5,7 @@ layout: layouts/post.njk
 
 <div class="container">
     <ul>
-        {%- for post in collections.notes | sortByPageOrder -%}
+        {%- for post in collections.modules | sortByPageOrder -%}
           <li>
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
                 <p> {{ post.data.description }} </p>

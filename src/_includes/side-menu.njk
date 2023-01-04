@@ -16,7 +16,7 @@
     <ul class="menu-list">
         <li><a {% if page.url == "/content/decision-makers/" %} class="is-active"{% endif %} href="/content/decision-makers">Decision Makers</a>
             <ul>
-        {% for note in collections.notes | sortByPageOrder %}
+        {% for note in collections.modules | sortByPageOrder %}
         <li>
             <a {% if note.url == page.url %} class="is-active"{% endif %} href="{{ note.url }}">{{ note.data.title }}</a>
         </li>

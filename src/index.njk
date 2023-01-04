@@ -34,7 +34,13 @@ layout: layouts/base.njk
 </section>
 
 <section class="section">
-    <h1 class="title has-text-centered">Information for target groups</h1>
-    <hr class="solid">
+    <h1 class="title has-text-centered">Blocks</h1>    
+    {% include "blocks.njk" %}
+</section>
+
+<hr class="solid">
+
+<section class="section">
+    <h1 class="title has-text-centered">Information for target groups</h1>    
     {% include "groups.njk" %}
 </section>

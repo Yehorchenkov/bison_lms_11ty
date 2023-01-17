@@ -51,7 +51,7 @@
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                    Blocks
+                    Thematic blocks
                 </a>
                 <div class="navbar-dropdown">
                     
@@ -74,12 +74,16 @@
                         <a class="navbar-item" href="content/blocks/spatial-planning">
                             Spatial Planning
                         </a>
+                    
+                        <a class="navbar-item" href="content/blocks/SEA-EIA">
+                            SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)
+                        </a>
                                                    
                 </div>
             </div>
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
-                    Target groups
+                    Stakeholders blocks
                 </a>
                 <div class="navbar-dropdown is-right">
                     
@@ -109,6 +113,9 @@
                                                    
                 </div>
             </div>
+            <a class="navbar-item" href="/repository">
+                Repository
+            </a>
             <a class="navbar-item" href="/contacts">
                 Contacts
             </a>        
@@ -147,16 +154,14 @@ $navbarBurgers.forEach( el => {
         <div class="columns">
             <div class="column is-8 is-offset-2">
                 <div class="content m-5">
-                    <h1>contacts</h1>
+                    
 
-                    <h1 class="subtitle">h5p content</h1>
-
-<div id="h5p-container"></div>
+                    <div id="h5p-container"></div>
 <script type="text/javascript" src="/assets/h5p/main.bundle.js"></script>
 <script type="text/javascript">
-	const el = document.getElementById('h5p-container');
+	const el = document.getElementById("h5p-container");
     const options = {
-        h5pJsonPath:  '/h5p-content/skin_match',
+        h5pJsonPath:  "/h5p-content/skin_match",
         frameJs: '/assets/h5p/frame.bundle.js',
         frameCss: '/assets/h5p/styles/h5p.css',
     }

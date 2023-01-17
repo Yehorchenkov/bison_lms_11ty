@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/helpers.css">
+    <link rel="stylesheet" href="/styles/cards.css">    
+    <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
+    
+    <title> Spectra e-learning platform </title>
+
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+
+</head>
+<body>
+    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item center" href="/">
+            <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
+        </a>        
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item has-text-weight-bold">
+                Spectra e-learning platform
+            </div>
+        </div>
+        <div class="navbar-end">
+            <a class="navbar-item" href="/">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+            </a>
+            <a class="navbar-item" href="/about">
+                About
+            </a>
+            <a class="navbar-item" href="/how-to-use">
+                How to use
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Thematic blocks
+                </a>
+                <div class="navbar-dropdown">
+                    
+                        <a class="navbar-item" href="content/blocks/overall-instructions">
+                            Overall instruction
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/overall-explanation">
+                            Overall explanation
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/national-specifics">
+                            National specifics
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/decision-making">
+                            Decision Making
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/spatial-planning">
+                            Spatial Planning
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/SEA-EIA">
+                            SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)
+                        </a>
+                                                   
+                </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    Stakeholders blocks
+                </a>
+                <div class="navbar-dropdown is-right">
+                    
+                        <a class="navbar-item" href="content/groups/group-global">
+                            EU and national level of government
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-local">
+                            Regional and local governance
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-infrastructure">
+                            Infrastructure management companies and authorities
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-professionals">
+                            Planners, designers and infrastructure professionals
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-academia">
+                            Academia and scientific community
+                        </a>
+                    
+                        <a class="navbar-item" href="content/groups/group-society">
+                            NGOS and civil society
+                        </a>
+                                                   
+                </div>
+            </div>
+            <a class="navbar-item" href="/repository">
+                Repository
+            </a>
+            <a class="navbar-item" href="/contacts">
+                Contacts
+            </a>        
+        </div>
+    </div>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+    el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+    });
+});
+
+});
+</script>
+    
+    <main class="hero is-fullheight">
+        
+<article class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">
+                <div class="content m-5">
+                    
+
+                    <p><a id="general-part"></a></p>
+<h2>General part</h2>
+<p>According to the European Commission <a href="http://ec.europa.eu/environment/eia/index_en.htm">1</a>, environmental assessment is a
+procedure that ensures that the environmental implications of decisions
+are taken into account before the decisions are made. Environmental
+assessment can be undertaken for individual projects, such as a dam,
+motorway, airport or factory, on the basis of Directive 2011/92/EU
+(known as &quot;Environmental Impact Assessment&quot; -- EIA Directive), or for
+public plans or programmes on the basis of Directive 2001/42/EC (known
+as &quot;Strategic Environmental Assessment&quot; -- SEA Directive). A common
+principle of both Directives is to ensure that plans, programmes and
+projects likely to have significant effects on the environment are made
+subject to an environmental assessment, prior to their approval.
+Consultation with the public is a key feature of environmental
+assessment procedures.</p>
+<p>The Directives on Environmental Assessment aim to provide a high level
+of protection of the envi­ronment and contribute to the integration of
+environmental considerations into the preparation of projects, plans and
+programs with a view to reduce their environmental impact. They ensure
+public participation in decision-making and thereby strengthen the
+quality of decisions. Hence, the Direc­tives on Environmental Assessment
+are crucial tools for sustainable development.</p>
+<p>Impact assessment was the main process adopted worldwide (originated in
+1969, The National En­vironmental Policy Act, USA). Strategic
+Environmental Assessment (SEA) subsequently emerged as a response to the
+need to identify potential negative environmental impacts early in the
+planning process. It is considered that the SEA offers more guarantees
+for sustainable development due to its pro-active strategic character
+(it has the ability to shape strategies, plans and programs) compared to
+the EIA that is traditionally reactive (analyses a previously defined
+project) (Partidario, 1996).</p>
+<p>SEA has the capacity to better identify the potential of the cumulative
+impact and to avoid it by in­tervening in the types of projects that are
+promoted by strategies and plans. Therefore, it is important to note
+that while the main question that guides the EIA process is &quot;how it is
+intended to be done&quot;, in the SEA process, the questions are: why?, what?
+where?</p>
+<p><a id="SEA-process"></a></p>
+<h2>SEA Process</h2>
+<p>The Strategic Environmental Assessment (SEA) process is governed in the
+European Union by Direc­tive 2001/42/EC on the assessment of the effects
+of certain plans and programmes on the environ­ment (SEA Directive). The
+SEA Directive should have been transposed in the national legislation of
+the Member States by July 2004 (Nistorescu et al, 2019).</p>
+<p>According to the Directive, its goal &quot;is to provide for a high level of
+protection of the environment and contribute to the integration of
+environmental considerations into the preparation and adoption of plans
+and programs with a view to promoting sustainable development, by
+ensuring that, in accor­dance with this Directive, an environmental
+assessment is carried out of certain plans and programs which are likely
+to have significant effects on the environment&quot;.</p>
+<p>SEA originated after the environmental impact assessment (EIA), with
+inputs from biophysical plan­ning and policy analysis. The overall
+purpose of SEA was to ensure that environmental issues would be
+adequately considered at early stages of development policy-making and
+planning (broadly con­sidered). SEA relates to highly complex issues, at
+multiple spatial and temporal scales, engaging a variety of stakeholders
+and consequently, multiple perspectives and expectations (Partidario,
+2012).</p>
+<p>SEA, in a strategic thinking approach, has three very specific
+objectives (Partidario, 2012):</p>
+<ol>
+<li>
+<p>Encourage environmental and sustainability integration (including
+biophysical, social, institutional and economic aspects), setting
+enabling conditions to nest future development proposals;</p>
+</li>
+<li>
+<p>Add-value to decision-making, discussing opportunities and risks of
+development options and turning problems into opportunities;</p>
+</li>
+<li>
+<p>Change minds and create a strategic culture in decision-making,
+promoting institutional cooper­ation and dialogues, avoiding
+conflicts.</p>
+</li>
+</ol>
+<p>Through these objectives, SEA can contribute to (Partidario, 2012):</p>
+<ul>
+<li>
+<p>Ensure a strategic, systemic and broad perspective in relation to
+environmental issues within a sustainability framework;</p>
+</li>
+<li>
+<p>Contribute to identifying, selecting and discussing major
+development options towards more sustainable decisions (intertwining
+biophysical, social, institutional and economic issues);</p>
+</li>
+<li>
+<p>Detect strategic opportunities and risks in the options under
+analysis and facilitate the consider­ation of cumulative processes;</p>
+</li>
+<li>
+<p>Suggest follow-up programmes, through strategic management and
+monitoring;</p>
+</li>
+<li>
+<p>Ensure participative and transparent processes that engage all
+relevant stakeholders through dialogues, and foster more integrated
+decisions in relation to the array of relevant points of view.</p>
+</li>
+</ul>
+<p>Due to its systematic and participatory approach, SEA is particularly
+relevant in the context of connec­tivity projects for protected areas,
+and in for the integration of protected areas into wider landscapes and
+seascapes.</p>
+<p>The SEA Directive applies to a wide range of <strong>public plans and
+programs</strong> (e.g. on land use, transport, energy, waste, agriculture,
+etc.). The SEA Directive does not refer to policies. Plans and
+programmes in the sense of the SEA Directive must be <strong>prepared or
+adopted by an authority</strong> (at national, regional or local level) and be
+<strong>required by legislative, regulatory or administrative provisions</strong>.</p>
+<p>An SEA is <strong>mandatory</strong> for plans/programmes which:</p>
+<ul>
+<li>are prepared for agriculture, forestry, fisheries, energy, industry,
+transport, waste/water manage­ment, telecommunications, tourism, town
+&amp; country planning or land use and which set the framework for
+future development consent of projects listed in the EIA Directive;</li>
+</ul>
+<p>Or</p>
+<ul>
+<li>have been determined to require an assessment under the Habitats
+Directive.</li>
+</ul>
+<p><a id="EIA-process"></a></p>
+<h2>EIA Process</h2>
+<p>The Environmental Impact Assessment (EIA) process is governed in the
+European Union by Directive 2011/92/EU on the assessment of the effects
+of certain public and private projects on the environ­ment (EIA
+Directive).</p>
+<p>The development of the EIA concept took place in the 1960s with the
+onset of the environmental movement in the United States (IAIA, 2009;
+Felleman, 2010). From a legal point of view, the EIA bases were put in
+place in 1969 in the United States through the adoption of the National
+Environ­mental Policy Act (NEPA). The first EIA Directive was adopted in
+the EU in 1985 (Directive 85/337/ EEC). The EIA Directive of 1985 has
+been amended three times, in 1997, in 2003 and in 2009. The initial
+Directive and its amendments have been codified by Directive 2011/92/EU.
+Directive 2011/92/ EU has been amended in 2014 by Directive 2014/52/EU,
+which introduced new elements in the EIA procedure, e.g.: one-stop shop
+for assessments deriving from the EIA and Nature Directives, quality
+control mechanism, mandatory assessment of reasonable alternatives,
+monitoring, broader scope of the EIA covering new issues (climate
+change, biodiversity, risks prevention), as well as justification of
+screening/EIA decisions.</p>
+<p>The goal of the EIA Directive is to ensure a high level of protection of
+the environment and human health, through the establishment of minimum
+requirements for the environmental impact assess­ment of projects.</p>
+<p>The main objective of the 2014 amendments was to simplify the rules for
+assessing the potential effects of projects on the environment. The
+amending EIA Directive is in line with the drive for smarter regulation,
+as it reduces the administrative burden. It also improves the level of
+environmental protec­tion, with a view to making business decisions on
+public and private investments more sound, more predictable and
+sustainable in the longer term. The new approach pays greater attention
+to threats and challenges that have emerged since the original rules
+came into force some 25 years ago. This means more attention to areas
+like resource efficiency, climate change and disaster prevention, which
+are now better reflected in the assessment process. The main amendments
+are as follows:</p>
+<ul>
+<li>
+<p>Member States now have a mandate to <strong>simplify their different
+environmental assessment procedures;</strong></p>
+</li>
+<li>
+<p><strong>Timeframes</strong> are introduced for the different stages of
+environmental assessments: screening de­cisions should be taken
+within 90 days (although extensions are possible) and public
+consultations should last at least 30 days. Members States also need
+to ensure that final decisions are taken within a &quot;reasonable period
+of time&quot;;</p>
+</li>
+<li>
+<p>The <strong>screening</strong> procedure, determining whether an EIA is required,
+is simplified. Decisions must be duly motivated in the light of the
+updated screening criteria;</p>
+</li>
+<li>
+<p><strong>EIA reports</strong> are to be made more understandable for the public,
+especially as regards assess­ments of the current state of the
+environment and alternatives to the proposal in question;</p>
+</li>
+<li>
+<p>The <strong>quality and the content of the reports</strong> will be improved.
+Competent authorities will also need to prove their objectivity to
+avoid <strong>conflicts of interest</strong>;</p>
+</li>
+<li>
+<p>The grounds for <strong>development consent decisions</strong> must be clear and
+more transparent for the public. Member States may also set
+timeframes for the validity of any reasoned conclusions or opinions
+issued as part of the EIA procedure;</p>
+</li>
+<li>
+<p>If projects do entail significant adverse effects on the
+environment, developers will be obliged to do the necessary to
+avoid, prevent or reduce such effects. These projects will need to
+be <strong>monitored</strong> using procedures determined by the Member States.
+Existing monitoring arrange­ments may be used to avoid duplication of
+monitoring and unnecessary costs.</p>
+</li>
+</ul>
+<ol>
+<li></li>
+</ol>
+<p>The EIA Directive applies to a wide range of public and private
+projects, which are defined in Annexes I and II:</p>
+<ul>
+<li>
+<p>Mandatory EIA: all projects listed in Annex I are considered as
+having significant effects on the environment and require an EIA
+(e.g. long-distance railway lines, motorways and express roads,
+airports with a basic runway length ≥ 2100 m, installations for the
+disposal of hazardous waste, installations for the disposal of
+non-hazardous waste &gt; 100 tonnes/day, wastewater treatment plants
+&gt; 150.000 p.e.);</p>
+</li>
+<li>
+<p>Discretion of Member States (screening): for projects listed in
+Annex II, the national authorities have to decide whether an EIA is
+needed. This is done by the &quot;screening procedure&quot;, which determines
+the effects of projects on the basis of thresholds/criteria or a
+case by case examination. However, the national authorities must
+take into account the criteria laid down in Annex III. The projects
+listed in Annex II are in general those not included in Annex I
+(railways, roads waste disposal installations, waste water treatment
+plants), but also other types such as urban development projects,
+flood-relief works, changes of Annex I and II existing projects
+etc.).</p>
+</li>
+</ul>
+<p>According to the European Commission31, the EIA procedure can be
+summarized as follows: the de­veloper may request the competent authority
+to say what should be covered by the EIA information to be provided by
+the developer (scoping stage); the developer must provide information on
+the environmental impact (EIA report -- Annex IV); the environmental
+authorities and the public (and affected Member States) must be informed
+and consulted; the competent authority decides, taken into consideration
+the results of consultations. The public is informed of the decision
+afterwards and can challenge the decision before the courts.</p>
+<p>According to the EIA Directive, the environmental impact assessment
+shall identify, describe and as­sess in an appropriate manner, in the
+light of each individual case, the direct and indirect significant
+effects of a project on the following factors: (a) human beings, fauna
+and flora population and human health; (b) biodiversity, with particular
+attention to species and habitats protected under Directive 92/43/EEC
+and Directive 2009/147/EC; (c) land, soil, water, air and climate and
+landscape; (d) material assets, cultural heritage and the landscape; (e)
+the interaction between the factors referred to in points (a) to (d).
+The effects on the factors set out therein shall include the expected
+effects deriving from the vulnerability of the project to risks of major
+accidents and/or disasters that are relevant to the project concerned.</p>
+<p>Role of SEA/EIA processes in nature conservation</p>
+<p>The SEA Directive contains a number of starting principles that provide
+a useful basis for considering biodiversity in SEA. 'Biodiversity' is
+specified in the list of factors to be assessed, as well as 'fauna' and
+'flora'.</p>
+<p>As previously presented, during the SEA procedure an environmental
+report is prepared in which the likely significant effects on the
+environment and the reasonable alternatives of the proposed plan or
+program are identified. Annex I(d) of the SEA Directive requires the
+environmental report to consider any existing environmental problems
+which are relevant to the PP including, in particular, those re­lating to
+any areas of a particular environmental importance, such as areas
+designated pursuant to Habitats Directive) and Birds Directive. Annex
+I(f) requires the environmental report to consider the effects on
+'biodiversity', 'fauna' and 'flora'.</p>
+<p>The recitals to the Directive acknowledge that &quot;the Convention on
+Biological Diversity requires Parties to integrate as far as possible
+and as appropriate the conservation and sustainable use of biological
+diversity into relevant sectoral or cross-sectoral plans and
+programmes&quot;.</p>
+<p>Annex I of the SEA Directive requires the environmental report to
+consider environmental objectives at international, EU and Member State
+levels.</p>
+<p>The EIA Directive also contains a number of principles that provide the
+basis for considering biodi­versity in EIA. The revised EIA Directive
+refers now explicitly to 'biodiversity', unlike its previous version.</p>
+<p>The recitals to the Directive clearly link the EIA process with the
+Convention on Biological Diversity and the EU 2020 Biodiversity
+Strategy: &quot;The United Nations Convention on Biological Diversity ('the
+Convention'), to which the Union is party pursuant to Council Decision
+93/626/EEC(9), requires assess­ment, as far as possible and as
+appropriate, of the significant adverse effects of projects on
+biological diversity, which is defined in Article 2 of the Convention,
+with a view to avoiding or minimising such effects. Such prior
+assessment of those effects should contribute to attaining the Union
+headline target adopted by the European Council in its conclusions of
+25-26 March 2010 of halting biodiversity loss and the degradation of
+ecosystem services by 2020 and restoring them where feasible&quot;.</p>
+<p>The revised EIA Directive includes the following references to
+biodiversity:</p>
+<ul>
+<li>
+<p>Article 3: The environmental impact assessment shall identify,
+describe and assess in an appro­priate manner, in the light of each
+individual case, the direct and indirect significant effects of a
+project on the following factors: [...] (b) <strong>biodiversity</strong>, with
+particular attention to species and habitats protected under
+Directive 92/43/EEC and Directive 2009/147/EC [...];</p>
+</li>
+<li>
+<p>Annex II A -- Information to be provided by the Developer on the
+projects listed in Annex II: 3. A description of any likely
+significant effects, to the extent of the information available on
+such effects, of the project on the environment resulting from: (a)
+the expected residues and emissions and the production of waste,
+where relevant; (b) the use of natural resources, in particular
+soil, land, water and <strong>biodiversity</strong>;</p>
+</li>
+<li>
+<p>Annex III -- Criteria to determine whether the projects listed in
+Annex II should be subject to an Environmental Impact Assessment:</p>
+</li>
+<li>
+<p>Characteristics of projects: The characteristics of projects must be
+considered, with particular regards to: [...] (c) the use of
+natural resources, in particular land, soil, water and
+<strong>biodiversity</strong> [...];</p>
+</li>
+<li>
+<p>Location of projects: The environmental sensitivity of geographical
+areas likely to be affected by projects must be considered, with
+particular regards to: [...] (b) the relative abundance,
+availability, quality and regenerative capacity of natural resources
+(including soil, land, water and <strong>biodiversi­ty</strong>) in the area and
+its underground; (c) the absorption capacity of the natural
+environment, pay­ing particular attention to the following areas: (i)
+wetlands, riparian areas, river mouths; (ii) coastal zones and the
+marine environment; (iii) mountain and forest areas; (iv) nature
+reserves and parks; (v) areas classified or protected under national
+legislation; Natura 2000 areas designated by Mem­ber States pursuant
+to Directive 92/43/EEC and Directive 2009/147/EC [...];</p>
+</li>
+<li>
+<p>Annex IV -- Information for the Environmental Impact Assessment
+report:</p>
+</li>
+<li>
+<p>Description of the project, including in particular: [...] (c) a
+description of the main characteristics of the operational phase of
+the project (in particular any production process), for instance,
+energy demand and energy used, nature and quantity of the materials
+and natural resources (including water, land, soil and
+<strong>biodiversity</strong>) used;</p>
+</li>
+<li>
+<p>A description of the factors specified in Article 3(1) likely to be
+significantly affected by the project: population, human health,
+<strong>biodiversity</strong> (for example fauna and flora), land (for example
+land take), soil (for example organic matter, erosion, compaction,
+sealing), water (for example hydro-morpho­logical changes, quantity
+and quality), [...];</p>
+</li>
+<li>
+<p>A description of the likely significant effects of the project on
+the environment resulting from, inter alia: [...](b) the use of
+natural resources, in particular land, soil, water and
+<strong>biodiversity</strong>, considering as far as possible the sustainable
+availability of these resources [...].</p>
+</li>
+</ul>
+<p>Biodiversity is the subjects of a many pieces of EU legislation,
+policies and strategies, including bind­ing targets for Member States.</p>
+<p>The Natura 2000 network of protected areas, created on the basis of the
+Habitats and the Birds Directives, is the backbone of the EU's
+biodiversity policy. However, it is important to remember that the
+concept of biodiversity is not limited to the Natura 2000 network; it is
+much broader (European Commission, 2013, Guidance on Integrating Climate
+Change and Biodiversity into Strategic Environ­mental Assessment and
+Guidance on Integrating Climate Change and Biodiversity into
+Environmen­tal Impact Assessment):</p>
+<ul>
+<li>
+<p>The Birds and Habitats Directives also cover species and habitats
+outside Natura 2000 sites;</p>
+</li>
+<li>
+<p>Under Article 6(3) of the Habitats Directive, an 'appropriate
+assessment' is required for any plan or project likely to have a
+significant effect on Natura 2000 site, even if it is implemented
+outside these sites;</p>
+</li>
+<li>
+<p>Article 10 of the Habitats Directive recognises the importance of
+ensuring the ecological coher­ence of the Natura 2000 sites;</p>
+</li>
+<li>
+<p>Finally, the <strong>EU 2020 Biodiversity Strategy</strong> as endorsed by the
+Council and European Parliament covers the whole territory and
+emphasises the benefits that ecosystems give us. It provides a
+package of actions needed to halt the loss of biodiversity and the
+degradation of ecosystem services by 2020 and to restore them so far
+as feasible.</p>
+</li>
+</ul>
+<p>Therefore, the SEAs and EIAs should look at all these aspects of
+biodiversity and the quality of sur­roundings. Biodiversity has been a
+core part of EU policy for over 20 years. Nevertheless, the overall
+trends are still negative and recent policy has been considered
+ineffective. This is shown by the EU's failure to achieve the target of
+halting biodiversity loss by 2010. In 2011, the European Commission
+adopted a new EU 2020 Biodiversity Strategy with its 2020 headline
+target --- 'Halting the loss of biodiversity and the degradation of
+ecosystem services in the EU by 2020, and restoring them so far as
+feasible, while stepping up the EU contribution to averting global
+biodiversity loss.' Target 2 of this Strategy (restoring at least 15% of
+degraded ecosystems) is broken down into accompanying actions, two of
+which seek to influence planning practices: set priorities to restore
+and promote the use of green infrastructure (Action 6) and ensure 'no-
+net-loss' of biodiversity and ecosystem services (Action 7). These
+provide a good policy basis for preserving ecosystem services and the
+use of eco­system-based approaches and green infrastructure in SEAs to
+support PPs and in EIAs to support projects (European Commission, 2013).</p>
+<p>It is very important to identify the key issues from the biodiversity
+perspective early in the SEA and EIA processes, when many options are
+still open, to ensure that they are assessed effectively throughout the
+process. It is necessary to consider not only the impacts of the plan,
+program or project on biodi­versity but also the impact of the natural
+environment on the plan, program or project.</p>
+<p><a id="role-of-processes"></a></p>
+<h2>Role of SEA/EIA processes in maintaining ecological connectivity</h2>
+<p>SEA &amp; EIA represents the two major pillars for the development of
+sustainable plans and projects. Both for SEA &amp; EIA processes, one of the
+main concerns is to address habitat fragmentation focusing on
+maintaining the level of interconnectivity among ecosystems which allow
+them to sustain the natural processes.</p>
+<p>Both SEA &amp; EIA Directives do not address directly the GI and ecological
+connectivity but contains most of the requirements needed to do so. For
+example, in the EIA Directive the GI or the ecological corridors are not
+mentioned in the Annex III (selection criteria to determine if projects
+listed in Annex II should be subject to an environmental impact
+assessment) but the existing criteria, particularly the ones related to
+the &quot;location of projects&quot; (e.g. &quot;the relative abundance, availability,
+quality and regen­erative capacity of natural resources&quot; or &quot;the
+absorption capacity of the natural environment&quot;) allows for the
+consideration of site sensitivity and natural processes in the
+assessments of plans and projects.</p>
+<p>Both procedures involve public participation and therefore they are
+extremely useful in debating the options regarding the socio-economic
+developments. SEA &amp; EIA have also a technical component which
+constitutes a powerful instrument for adapting the proposed plans &amp;
+projects. SEA process plays a crucial role in selecting the
+alternatives, particularly when the process is conducted at broader
+scales (national or regional). By doing so, SEA can contribute
+significantly to avoiding the significant impacts on green
+infrastructure and particularly on ecological connectivity by supporting
+alternatives which avoid sensitive areas or have the capacity to
+maintain a good level of permeability.</p>
+<p>EIA, as a project-oriented process has also a good capacity to avoid
+significant impacts and also to contribute to the reduction of impacts
+when avoidance cannot be achieved at a satisfactory level. The best
+example is in the case of road infrastructure: large structures like
+bridges, viaducts or tunnels represent an ideal option to maintain
+ecological connectivity but when such constructions cannot be
+implemented, measures to reduce the impact of connectivity fragmentation
+have to be implement­ed (eco-ducts, green bridges or underpasses).</p>
+<p>The key principles of using SEA &amp; EIA to warrant ecological connectivity
+are:</p>
+<ol>
+<li>
+<p>Apply Ecosystem Based Management: a correct assessment of impacts
+should rely on the identi­fication of ecosystems and their key
+processes. The intent is to maintain those spatial and tempo­ral
+characteristics of ecosystems such that component species and
+ecological processes can be sustained and human well-being supported
+and improved;</p>
+</li>
+<li>
+<p>No-net-loss of biodiversity and ecosystem services. The principle
+requires that damages resulting from human activities must be
+balanced by at least equivalent gains;</p>
+</li>
+<li>
+<p>Assure interpenetration of grey and green infrastructure:
+development of grey infrastructure should not interrupt the
+connectivity of GI;</p>
+</li>
+<li>
+<p>Apply hierarchy of interventions: avoidance is preferable to
+mitigation and compensation is the last option. Avoidance of
+significant impacts cannot be achieved without taking in
+consideration all feasible alternatives of a plan/project;</p>
+</li>
+<li>
+<p>Apply adaptive management. As a formal response to the presence of
+uncertainty and risk, adaptive management is a systematic learning
+process that formally plans and monitors the out­comes of decisions
+to improve our ability to better manage natural resources given
+uncertainty.</p>
+</li>
+</ol>
+<p>The main methodological steps to assure the implementation of the
+above-mentioned principles for road infrastructure plans/projects are:</p>
+<ol>
+<li>
+<p>Identification of ecosystems and their key processes (which might be
+affected by the implemen­tation of proposed plan/project) based on an
+up-to-date and comprehensive database. Identifi­cation of critical
+connectivity areas should be an important task along the
+identification of other highly sensitive components like wilderness
+areas or critical habitats;</p>
+</li>
+<li>
+<p>Identification of existing dysfunctionalities (existing pressures)
+in terms of GI carrying capacity and connectivity;</p>
+</li>
+<li>
+<p>Analysis of a large spectrum of alternatives (including different
+locations and different construc­tive options);</p>
+</li>
+<li>
+<p>Assessment of potential impacts for all feasible alternatives which
+has the potential to sustain and develop the GI (mainly the
+ecological connectivity);</p>
+</li>
+<li>
+<p>Selection of the alternative(s) with the highest degree of avoidance
+for significant impacts;</p>
+</li>
+<li>
+<p>Prediction of the impacts and quantification of all forms of
+impacts, particularly the ones leading to habitat loss and habitat
+fragmentation;</p>
+</li>
+<li>
+<p>Defining all the mitigation measures required in order to reduce
+significant impacts on GI taking also, in consideration &quot;historical&quot;
+and cumulative impacts;</p>
+</li>
+<li>
+<p>Implementation of compensatory measures if this is the only way to
+reduce the significant im­pacts on Natura 2000 sites. All mitigation
+or compensatory measures proposing the restoration, rehabilitation
+or creation of natural areas should primarily be focused on
+regaining/maintaining the ecological connectivity;</p>
+</li>
+<li>
+<p>Implementation of a monitoring program during construction and
+operation in order to assess the efficiency of mitigation measures,
+to quantify the residual impacts and to propose and imple­ment
+possible corrective measures.</p>
+</li>
+</ol>
+<p><a id="references"></a></p>
+<h2>References</h2>
+<ul>
+<li>
+<p><strong>European Commission, 2013</strong>, Guidance on Integrating Climate
+Change and Biodiversity into Environ­mental Impact Assessment, Study
+Contract No 07.0307/2010/580136/ETU/A3, implemented for the Eu­ropean
+Commission by Milieu Ltd, Collingwood Environmental Planning Ltd and
+Integra Consulting Ltd;</p>
+</li>
+<li>
+<p><strong>Felleman, J., Herz, J., Draggan, S., 2010</strong>, „Environmental Impact
+Assessment&quot;. In: Encyclopedia of Earth. Eds. Cutler J. Cleveland
+(Washington, D.C.: Environmental Information Coalition, National
+Council for Sci­ence and the Environment).
+http://www.eoearth.org/article /Environmental _Impact_Assessment;</p>
+</li>
+<li>
+<p><strong>IAIA, 2009</strong>, What Is Impact Assessment?,
+&lt;http://www.iaia.org/publicdocuments/special-publications/
+What%20is%20IA_web.pdf&gt;;</p>
+</li>
+<li>
+<p><strong>Nistorescu</strong> M,, <strong>Ioniță</strong> A. and <strong>Doba</strong> A. (2019): Keeping
+Nature Connected -- EIA for Integrated Green Infrastructure Planning
+-- Training Package, Propark, Romania.</p>
+</li>
+<li>
+<p><strong>Partidário, M.R., 2012</strong>, Strategic Environmental Assessment
+Better Practice Guidance - Methodological guidance for strategic
+thinking in SEA, Lisbon, Portuguese Environment Agency and Redes
+Energéticas Nacionais (REN), SA;</p>
+</li>
+</ul>
+<p><a id="training-package"></a></p>
+<h2>EIA/SEA Training Package</h2>
+<p>Within TRANSGREEN Project, a comprehensive EIA/SEA Training Package had
+been developed to help stakeholders obtain theoretical and mostly
+practical knowledge about these two processes.</p>
+<p>The course aims at presenting some specific aspects that need to be
+applied in identifying and assessing the environmental impact generated
+by infrastructure projects so as to ensure that the best measures to
+avoid, reduce and mitigate impacts are taken into account in the design,
+construction and operation of these projects.</p>
+<p>Target group includes representatives of the national road and rail
+infrastructure companies, representatives of the Ministry of Transport,
+environmental consultants involved in the elaboration of environmental
+impact assessment studies and appropriate assessment studies for
+transport infrastructure projects, NGOs with activity in environmental
+protection and transport infrastructure.</p>
+<p>Duration of the course is 16 hours that are to be spread across two
+consecutive days.</p>
+<p>Main objective of the course it that participants understand and adopt
+good working practices presented in the field of environmental impact
+assessment and management of green infrastructure so as to ensure the
+quality of impact assessments and their contribution to the improvement
+of transport infrastructure projects.</p>
+<p>The course approaches these topics:</p>
+<ul>
+<li>
+<p>What are Green Infrastructure and ecological connectivity?</p>
+</li>
+<li>
+<p>Means to preserve, enhance and restore ecological connectivity;</p>
+</li>
+<li>
+<p>Legal framework for SEA/EIA/AA and why is SEA &amp; EIA essential for
+maintaining ecological connectivity?</p>
+</li>
+<li>
+<p>Grey infrastructure permeability assessment;</p>
+</li>
+<li>
+<p>What is a significant impact and how to avoid and reduce significant
+impacts on habitat fragmentation;</p>
+</li>
+<li>
+<p>Quality review of Environmental Reports (SEA/EIA/AA);</p>
+</li>
+<li>
+<p>Best practices in data collection for ecological connectivity and in
+the identification of maintaining, enhancing and restore ecological
+connectivity.</p>
+</li>
+</ul>
+<p>Three practical exercises are prepared for course participants to
+sharpen their understanding:</p>
+<ul>
+<li>
+<p>Exercise 1 -- The identification of suitable areas for the placement
+of ecoducts, where multiple barriers for wildlife connectivity are
+present</p>
+</li>
+<li>
+<p>Exercise 2 -- Permeability</p>
+</li>
+<li>
+<p>Exercise 3 -- Measures</p>
+</li>
+</ul>
+<p>The full course including all the training materials can be accessed
+here: <a href="http://transgreen.patko.sk/?page_id=654">http://transgreen.patko.sk/?page_id=654</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+        <footer class="footer pb-2">
+    <div class="content has-text-centered">
+      <p>
+        &copy BISON project. All rights reserved.
+      </p>
+    </div>
+</footer>
+    </main>    
+</body>
+</html>

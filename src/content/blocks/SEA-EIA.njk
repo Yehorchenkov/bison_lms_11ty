@@ -1,0 +1,40 @@
+---
+layout: layouts/page.njk
+---
+
+{% set title = blocks.block_d.name %}
+
+<h1 class="title is-spaced is-2">{{ title }}</h1>
+
+<hr class="solid">
+
+<h2 class="subtitle is-4">Overall Content</h2>
+
+<div class="container">
+  <ul>      
+        <li>
+            <a href="/notes/SEA-EIA#general-part">General part</a>
+        </li>
+        <li>
+            <a href="/notes/SEA-EIA#SEA-process">SEA Process</a>
+        </li>
+        <li>
+            <a href="/notes/SEA-EIA#EIA-process">EIA Process</a>
+        </li>
+        <li>
+            <a href="/notes/SEA-EIA#role-of-processes">Role of SEA/EIA processes in maintaining ecological connectivity</a>
+        </li>
+        <li>
+            <a href="/notes/SEA-EIA#references">References</a>
+        </li>
+        <li>
+            <a href="/notes/SEA-EIA#training-package">EIA/SEA Training Package</a>         
+        </li>
+  </ul>    
+</div>
+
+<hr class="solid">
+
+<h1 class="subtitle is-4">Information for stakeholders</h1>
+
+{% include "groups.njk" %}

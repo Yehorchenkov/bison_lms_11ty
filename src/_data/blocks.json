@@ -1,12 +1,20 @@
 {
     "block_a": {"name": "Overall instruction",
-                "ref": "content/blocks/overall-instructions"},
+                "ref": "content/blocks/overall-instructions",
+                "header": "Thematic Block I"},
     "block_b": {"name": "Overall explanation",
-                "ref": "content/blocks/overall-explanation"},
+                "ref": "content/blocks/overall-explanation",
+                "header": "Thematic Block II"},
     "block_c": {"name": "National specifics",
-                "ref": "content/blocks/national-specifics"},
+                "ref": "content/blocks/national-specifics",
+                "header": "Thematic Block III"},
     "block_d": {"name": "Decision Making",
-                "ref": "content/blocks/decision-making"},
+                "ref": "content/blocks/decision-making",
+                "header": "Thematic Block IV"},
     "block_e": {"name": "Spatial Planning",
-                "ref": "content/blocks/spatial-planning"}        
+                "ref": "content/blocks/spatial-planning",
+                "header": "Thematic Block V"},
+    "block_f": {"name": "SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)",
+                "ref": "content/blocks/SEA-EIA",
+                "header": "Thematic Block VI"}
 }

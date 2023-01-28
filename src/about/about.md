@@ -1,13 +1,7 @@
 ---
 title: About
-layout: layouts/page.njk
+layout: layouts/page-toc.njk
 ---
-
-[Subtitle 1](/about#subtitle-1)
-
-[Subtitle 2](/about#subtitle-2)
-
-<a id="subtitle-1"></a>
 
 ## subtitle 1
 
@@ -23,7 +17,6 @@ Praesent cursus id ligula at hendrerit. Class aptent taciti sociosqu ad litora t
 
 Donec luctus arcu non purus commodo, quis facilisis enim pharetra. Aenean condimentum justo tristique, ornare ipsum nec, placerat nibh. In aliquam, purus at porttitor convallis, magna mi fermentum enim, tincidunt dictum quam ante sit amet tellus. Sed ut ipsum eget leo tincidunt pellentesque sed eu lacus. In ac quam convallis, volutpat magna interdum, consectetur justo. Integer libero mauris, vulputate non interdum sit amet, facilisis sit amet urna. Nullam turpis est, pellentesque vitae dui id, aliquet porta lacus. Phasellus scelerisque interdum neque, ut aliquam purus lobortis sed. Sed luctus ligula nec dolor vehicula dapibus. Phasellus dapibus augue aliquet tellus accumsan mattis. Morbi dignissim eros urna, vitae blandit tellus aliquam a. 
 
-<a id="subtitle-2"></a>
 ## subtitle 2
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ornare eros sit amet leo dignissim, at placerat arcu ornare. Duis eleifend velit nibh, sed ornare massa bibendum pulvinar. In interdum eu turpis non gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam nec sollicitudin leo, a dignissim turpis. Sed condimentum blandit libero eget placerat. Quisque laoreet rutrum consectetur. Donec aliquam nibh vitae magna sollicitudin, vitae imperdiet justo laoreet. Sed interdum iaculis sodales. Suspendisse potenti. Donec posuere pellentesque feugiat. Sed malesuada lorem ut nisi ultrices, nec porttitor erat rhoncus.

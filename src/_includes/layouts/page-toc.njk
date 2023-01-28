@@ -1,0 +1,23 @@
+---
+layout: "layouts/base.njk"
+---
+
+<article class="page-layout">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2">                
+                <div class="content m-5">
+                    <h1 class="title is-2">{{ title }}</h1>
+                    
+                    <hr class="solid">
+
+                    {{ content | toc | safe }}
+
+                    <hr class="solid">
+
+                    {{ content | safe }}
+                </div>
+            </div>            
+        </div>
+    </div>
+</article>

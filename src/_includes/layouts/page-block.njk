@@ -1,0 +1,23 @@
+---
+layout: "layouts/base.njk"
+---
+
+<article class="page-layout">
+    <section class="section">        
+        
+        <h1 class="title">{{ blocks[block_name].name }}</h1>
+
+        <hr class="solid">
+
+        <h2 class="subtitle is-4">Overall Content</h2>
+
+        {{ content | safe }}
+
+        <hr class="solid">
+        
+        <h2 class="subtitle is-4">Information for stakeholders</h2>
+
+        {% include "block-groups.njk" %} 
+        
+    </section>
+</article>

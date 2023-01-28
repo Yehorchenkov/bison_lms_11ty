@@ -2,14 +2,13 @@
 title: "Thematic block 1: SEA/EIA (Strategic Environmental Assessment /
 Environmental Impact Assessment)"
 description: "Here should be description for generating content page"
-layout: layouts/page.njk
+layout: layouts/page-toc.njk
 ---
 
-<a id="general-part"></a>
+## General part {#general-part}
 
-## General part
-
-According to the European Commission [1](http://ec.europa.eu/environment/eia/index_en.htm), environmental assessment is a
+According to the European Commission [1](http://ec.europa.eu/environment/eia/index_en.htm), 
+environmental assessment is a
 procedure that ensures that the environmental implications of decisions
 are taken into account before the decisions are made. Environmental
 assessment can be undertaken for individual projects, such as a dam,
@@ -48,9 +47,7 @@ that while the main question that guides the EIA process is "how it is
 intended to be done", in the SEA process, the questions are: why?, what?
 where?
 
-<a id="SEA-process"></a>
-
-## SEA Process
+## SEA Process {#sea-process}
 
 The Strategic Environmental Assessment (SEA) process is governed in the
 European Union by Direc­tive 2001/42/EC on the assessment of the effects
@@ -132,9 +129,7 @@ Or
 -   have been determined to require an assessment under the Habitats
     Directive.
 
-<a id="EIA-process"></a>
-
-## EIA Process
+## EIA Process {#eia-process}
 
 The Environmental Impact Assessment (EIA) process is governed in the
 European Union by Directive 2011/92/EU on the assessment of the effects
@@ -419,9 +414,7 @@ process. It is necessary to consider not only the impacts of the plan,
 program or project on biodi­versity but also the impact of the natural
 environment on the plan, program or project.
 
-<a id="role-of-processes"></a>
-
-## Role of SEA/EIA processes in maintaining ecological connectivity
+## Role of SEA/EIA processes in maintaining ecological connectivity {#role-of-processes}
 
 SEA & EIA represents the two major pillars for the development of
 sustainable plans and projects. Both for SEA & EIA processes, one of the
@@ -533,9 +526,7 @@ above-mentioned principles for road infrastructure plans/projects are:
     to quantify the residual impacts and to propose and imple­ment
     possible corrective measures.
 
-<a id="references"></a>
-
-## References
+## References {#references}
 
 -   **European Commission, 2013**, Guidance on Integrating Climate
     Change and Biodiversity into Environ­mental Impact Assessment, Study
@@ -562,9 +553,7 @@ above-mentioned principles for road infrastructure plans/projects are:
     thinking in SEA, Lisbon, Portuguese Environment Agency and Redes
     Energéticas Nacionais (REN), SA;
 
-<a id="training-package"></a>
-
-## EIA/SEA Training Package
+## EIA/SEA Training Package {#training-package}
 
 Within TRANSGREEN Project, a comprehensive EIA/SEA Training Package had
 been developed to help stakeholders obtain theoretical and mostly

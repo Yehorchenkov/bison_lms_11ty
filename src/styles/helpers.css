@@ -44,6 +44,12 @@ hr.solid {
 li {list-style-type: none;}
 
 /* for equal card height */
-.card {
+.card-equal-height {
 	height: 100%;
-  }
+	display: flex;
+  	flex-direction: column;
+}
+
+.card-equal-height .card-footer {
+	margin-top: auto;
+}

@@ -4,6 +4,12 @@ const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+// Table of Content for markdown
+const markdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
+const markdownItAttrs = require("markdown-it-attrs")
+const pluginTOC = require('eleventy-plugin-toc')
+
 module.exports = function(eleventyConfig) {
     // Copy the `css` directory to the output
     eleventyConfig.addPassthroughCopy("./src/styles");
@@ -37,6 +43,14 @@ module.exports = function(eleventyConfig) {
         return values.slice().sort((a, b) => Math.sign(a.data.order - b.data.order));
     }
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
+
+    // Table of Content for markdown
+    eleventyConfig.setLibrary(
+        'md',
+        markdownIt().use(markdownItAnchor).use(markdownItAttrs)
+      )
+    
+    eleventyConfig.addPlugin(pluginTOC)
 
     // quizlet shortcode
     eleventyConfig.addShortcode("quizlet", (url) => 

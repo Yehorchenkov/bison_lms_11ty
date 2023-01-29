@@ -4,6 +4,8 @@ const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
 // Table of Content for markdown
 const markdownIt = require('markdown-it')
 const markdownItAnchor = require('markdown-it-anchor')
@@ -37,6 +39,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(embedYouTube);
 
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
 
     // Page order
     function sortByPageOrder(values) {

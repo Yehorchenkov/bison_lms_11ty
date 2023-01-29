@@ -2,12 +2,34 @@
 layout: "layouts/base.njk"
 ---
 
+{# <link rel="stylesheet" href="/styles/back-button.css">
+
+<script  type="text/javascript">
+    var btn = $('#back-to-top-button');
+
+    $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
+    });
+
+    btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+    });
+</script>
+
+<a class="back-to-top-button" id="back-to-top-button"></a> #}
+
+
 <article class="page-layout">
     <div class="container">
         <div class="columns">
             <div class="column is-8 is-offset-2">                
                 <div class="content m-5">
-                    <h1 class="title is-2">{{ title }}</h1>
+                    <h1 class="title">{{ title }}</h1>
                     
                     <hr class="solid">
 
@@ -17,7 +39,8 @@ layout: "layouts/base.njk"
 
                     {{ content | safe }}
                 </div>
-            </div>            
+            </div>
+
         </div>
     </div>
 </article>

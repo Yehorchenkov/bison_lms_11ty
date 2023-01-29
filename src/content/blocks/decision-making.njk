@@ -1,59 +1,15 @@
 ---
-layout: layouts/page.njk
+layout: layouts/page-block.njk
+block_name: "block_decision_making"
 ---
-
-{% set title = blocks.block_d.name %}
-
-<h1 class="title is-spaced is-2">{{ title }}</h1>
-
-<hr class="solid">
-
-<h2 class="subtitle is-4">Overall Content</h2>
 
 <div class="container">
   <ul>
-      {% for post in collections.decision_making | sortByPageOrder %}
+        {# {% renderFile "./src/notes/decision-making.md" | toc %} #}
+
         <li>
-              <a href="{{ post.url }}">{{ post.data.title }}</a>
-              <p> {{ post.data.description }} </p>
+            <a href="/notes/decision-making">General part</a>
         </li>
-      {% endfor %}
-        <li>
-            <a href="/">Some other possible content</a>
-            <p>Description of this content</p>
-        </li>
+        
   </ul>    
-</div>
-
-<hr class="solid">
-
-<h1 class="subtitle is-4">Information for stakeholders</h1>
-
-<div class="container">
-  <div class="columns">      
-    <div class="column">
-      <div class="card">                        
-        <div class="card-content">
-          <div class="content">
-            <strong>{{ groups.group_global.name }}</strong>
-          </div>
-        </div>
-        <footer>
-          <a href="/notes/group-global-decision-making" class="card-footer-item">Continue reading</a>
-        </footer>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">                        
-        <div class="card-content">
-          <div class="content">
-            <strong>{{ groups.group_local.name }}</strong>
-          </div>
-        </div>
-        <footer>
-          <a href="/notes/group-local-decision-making" class="card-footer-item">Continue reading</a>
-        </footer>
-      </div>
-    </div>
-  </div>
 </div>

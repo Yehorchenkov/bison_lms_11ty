@@ -1,7 +1,7 @@
 ---
 title: "Decision making for EU and national level of government"
 description: "Here should be description for generating content page"
-tags: [group_global, decision_making]
+tags: [group_global]
 order: 0
 layout: layouts/page.njk
 ---

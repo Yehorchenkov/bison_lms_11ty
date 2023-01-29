@@ -8,13 +8,13 @@
     "block_c": {"name": "National specifics",
                 "ref": "content/blocks/national-specifics",
                 "header": "Thematic Block III"},
-    "block_d": {"name": "Decision Making",
+    "block_decision_making": {"name": "Decision Making",
                 "ref": "content/blocks/decision-making",
                 "header": "Thematic Block IV"},
-    "block_e": {"name": "Spatial Planning",
+    "block_spatial_planning": {"name": "Spatial Planning",
                 "ref": "content/blocks/spatial-planning",
                 "header": "Thematic Block V"},
-    "block_f": {"name": "SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)",
+    "block_sea_eia": {"name": "SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)",
                 "ref": "content/blocks/SEA-EIA",
                 "header": "Thematic Block VI"}
 }

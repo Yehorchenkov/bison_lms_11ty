@@ -2,7 +2,7 @@
     <div class="columns">
         {% for key, val in groups %}
             <div class="column">
-                <a href="/notes/{{ block_name }}-{{ key }}">
+                <a href="/notes/block-group/{{ block_name }}-{{ key }}">
                     <div class="card card-equal-height shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
@@ -19,4 +19,24 @@
             </div>            
         {% endfor %}
     </div>
+    {# <div class="columns">
+        {% for page in collection[block_name] | sortByPageOrder %}
+            <div class="column">
+                <a href="{{ page.url }}">
+                    <div class="card card-equal-height shadow-lg is-cursor-pointer">
+                        <div class="card-image cover-image is-overflow-hidden">
+                            <figure class="image is-4by3">
+                                <img src="{{ val.image }}" alt="{{ val.alt }}">
+                            </figure>
+                        </div>              
+                        <div class="card-content">
+                            <div class="content">
+                                <strong>{{ val.name }}</strong>
+                            </div>
+                        </div> 
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div> #}
 </div>

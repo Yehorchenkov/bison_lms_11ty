@@ -1,0 +1,21 @@
+---
+layout: "layouts/page.njk"
+---
+
+<h1 class="title is-spaced">{{ groups[group_name].name }}</h1>
+<h2 class="subtitle">Overall content</h2>
+
+<div class="container">
+    <ul>
+        {% if collections[group_name].length %}
+            {% for post in collections[group_name] | sortByPageOrder %}
+            <li class="mb-3">
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                <p class="is-italic">{{ post.data.description }}</p>
+            </li>          
+            {% endfor %}
+        {% else %} 
+            <li class="mb-3">There are no pages for <strong>{{ groups[group_name].name }}</strong> target group</li>
+        {% endif %}
+    </ul>    
+</div>

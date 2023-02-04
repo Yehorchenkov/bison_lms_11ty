@@ -15,7 +15,21 @@ layout: "layouts/page.njk"
             </li>          
             {% endfor %}
         {% else %} 
-            <li class="mb-3">There are no pages for <strong>{{ groups[group_name].name }}</strong> target group</li>
+            <li class="mb-3">There are no pages for <strong>{{ groups[group_name].name }}</strong> stakeholder's group</li>
         {% endif %}
     </ul>    
+</div>
+
+<hr class="solid">
+
+<h2 class="subtitle">General information about thematic blocks</h2>
+
+<div class="container">
+    <ul>
+        {% for key, val in blocks %}
+            <li class="mb-3">
+                <a href="{{ val.ref_general }}">{{ val.name }}</a>                          
+            </li>            
+        {% endfor %}
+    </ul>
 </div>

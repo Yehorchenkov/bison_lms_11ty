@@ -197,17 +197,17 @@ $navbarBurgers.forEach( el => {
                     <h1 class="title">EU level actors</h1>
                     
                     <p>Test h5p content</p>
-<p>&lt;div id=&quot;h5p-container&quot;&gt;&lt;/div&gt;
-&lt;script type=&quot;text/javascript&quot; src=&quot;/assets/h5p/main.bundle.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-const el = document.getElementById(&quot;h5p-container&quot;);
-const options = {
-h5pJsonPath:  &quot;/h5p-content/skin_match&quot;,
-frameJs: '/assets/h5p/frame.bundle.js',
-frameCss: '/assets/h5p/styles/h5p.css',
-}
-new H5PStandalone.H5P(el, options);
-&lt;/script&gt;</p>
+<div id="h5p-container"></div>
+<script type="text/javascript" src="/assets/h5p/main.bundle.js"></script>
+<script type="text/javascript">
+	const el = document.getElementById("h5p-container");
+    const options = {
+        h5pJsonPath:  "/h5p-content/skin_match",
+        frameJs: '/assets/h5p/frame.bundle.js',
+        frameCss: '/assets/h5p/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
 
                     
                 </article>

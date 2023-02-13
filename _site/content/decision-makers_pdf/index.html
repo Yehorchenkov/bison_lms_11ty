@@ -197,39 +197,39 @@ $navbarBurgers.forEach( el => {
                     <h1 class="title">Decision Makers</h1>
                     
                     <p>Embed PDF.</p>
-<p>&lt;div id=&quot;adobe-pdf-view&quot; style=&quot;height: 500px;&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://documentservices.adobe.com/view-sdk/viewer.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-document.addEventListener(&quot;adobe_dc_view_sdk.ready&quot;, function(){
-// var adobeDCView = new AdobeDC.View({clientId: &quot;70e713a9f68441eaa876ebca12ea8bf8&quot;, divId: &quot;adobe-pdf-view&quot;}); //localhost
-var adobeDCView = new AdobeDC.View({clientId: &quot;b4c210d1f7b84725b53e753649870543&quot;, divId: &quot;adobe-pdf-view&quot;}); //monkfish-app-f6zri.ondigitalocean.app
-adobeDCView.previewFile({
-content:{ location:
-{ url: &quot;/pdf-content/About.pdf&quot;}},
-metaData:{fileName: &quot;About.pdf&quot;}
-},
-{
-embedMode: &quot;FULL_WINDOW&quot;
-});
-});
-&lt;/script&gt;</p>
+<div id="adobe-pdf-view" style="height: 500px;"></div>
+<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function(){
+        // var adobeDCView = new AdobeDC.View({clientId: "70e713a9f68441eaa876ebca12ea8bf8", divId: "adobe-pdf-view"}); //localhost
+        var adobeDCView = new AdobeDC.View({clientId: "b4c210d1f7b84725b53e753649870543", divId: "adobe-pdf-view"}); //monkfish-app-f6zri.ondigitalocean.app
+        adobeDCView.previewFile({
+            content:{ location:
+                    { url: "/pdf-content/About.pdf"}},
+            metaData:{fileName: "About.pdf"}
+        },
+        {
+            embedMode: "FULL_WINDOW"
+        });
+    });
+</script>
 <p>One more PDF</p>
-<p>&lt;div id=&quot;adobe-pdf-2&quot; style=&quot;height: 500px;&quot;&gt;&lt;/div&gt;
-&lt;script src=&quot;https://documentservices.adobe.com/view-sdk/viewer.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-document.addEventListener(&quot;adobe_dc_view_sdk.ready&quot;, function(){
-// var adobeDCView = new AdobeDC.View({clientId: &quot;70e713a9f68441eaa876ebca12ea8bf8&quot;, divId: &quot;adobe-pdf-2&quot;}); //localhost
-var adobeDCView = new AdobeDC.View({clientId: &quot;b4c210d1f7b84725b53e753649870543&quot;, divId: &quot;adobe-pdf-2&quot;}); //monkfish-app-f6zri.ondigitalocean.app
-adobeDCView.previewFile({
-content:{ location:
-{ url: &quot;https://documentservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf&quot;}},
-metaData:{fileName: &quot;Bodea Brochure.pdf&quot;}
-},
-{
-embedMode: &quot;FULL_WINDOW&quot;
-});
-});
-&lt;/script&gt;</p>
+<div id="adobe-pdf-2" style="height: 500px;"></div>
+<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+<script type="text/javascript">
+    document.addEventListener("adobe_dc_view_sdk.ready", function(){
+        // var adobeDCView = new AdobeDC.View({clientId: "70e713a9f68441eaa876ebca12ea8bf8", divId: "adobe-pdf-2"}); //localhost
+        var adobeDCView = new AdobeDC.View({clientId: "b4c210d1f7b84725b53e753649870543", divId: "adobe-pdf-2"}); //monkfish-app-f6zri.ondigitalocean.app
+        adobeDCView.previewFile({
+            content:{ location:
+                    { url: "https://documentservices.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+            metaData:{fileName: "Bodea Brochure.pdf"}
+        },
+        {
+            embedMode: "FULL_WINDOW"
+        });
+    });
+</script>
 <p>Embed YouTube</p>
 <div id="dQw4w9WgXcQ" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 

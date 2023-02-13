@@ -7,9 +7,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
 // Table of Content for markdown
-const markdownIt = require('markdown-it')
-const markdownItAnchor = require('markdown-it-anchor')
-const markdownItAttrs = require("markdown-it-attrs")
 const pluginTOC = require('eleventy-plugin-toc')
 
 module.exports = function(eleventyConfig) {
@@ -48,12 +45,6 @@ module.exports = function(eleventyConfig) {
     }
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
-    // Table of Content for markdown
-    eleventyConfig.setLibrary(
-        'md',
-        markdownIt().use(markdownItAnchor).use(markdownItAttrs)
-      )
-    
     eleventyConfig.addPlugin(pluginTOC)
 
     // quizlet shortcode

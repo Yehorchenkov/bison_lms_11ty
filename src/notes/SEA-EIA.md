@@ -5,7 +5,7 @@ description: "Here should be description for generating content page"
 layout: layouts/page-toc.njk
 ---
 
-## General part {#general-part}
+<h2 id="general-part">General part</h2>
 
 According to the European Commission [1](http://ec.europa.eu/environment/eia/index_en.htm), 
 environmental assessment is a
@@ -47,7 +47,7 @@ that while the main question that guides the EIA process is "how it is
 intended to be done", in the SEA process, the questions are: why?, what?
 where?
 
-## SEA Process {#sea-process}
+<h2 id="sea-process">SEA Process</h2>
 
 The Strategic Environmental Assessment (SEA) process is governed in the
 European Union by Direc­tive 2001/42/EC on the assessment of the effects
@@ -129,7 +129,7 @@ Or
 -   have been determined to require an assessment under the Habitats
     Directive.
 
-## EIA Process {#eia-process}
+<h2 id="eia-process">EIA Process</h2>
 
 The Environmental Impact Assessment (EIA) process is governed in the
 European Union by Directive 2011/92/EU on the assessment of the effects
@@ -414,7 +414,7 @@ process. It is necessary to consider not only the impacts of the plan,
 program or project on biodi­versity but also the impact of the natural
 environment on the plan, program or project.
 
-## Role of SEA/EIA processes in maintaining ecological connectivity {#role-of-processes}
+<h2 id="role-of-processes">Role of SEA/EIA processes in maintaining ecological connectivity</h2>
 
 SEA & EIA represents the two major pillars for the development of
 sustainable plans and projects. Both for SEA & EIA processes, one of the
@@ -526,7 +526,7 @@ above-mentioned principles for road infrastructure plans/projects are:
     to quantify the residual impacts and to propose and imple­ment
     possible corrective measures.
 
-## References {#references}
+<h2 id="references">References</h2>
 
 -   **European Commission, 2013**, Guidance on Integrating Climate
     Change and Biodiversity into Environ­mental Impact Assessment, Study
@@ -553,7 +553,7 @@ above-mentioned principles for road infrastructure plans/projects are:
     thinking in SEA, Lisbon, Portuguese Environment Agency and Redes
     Energéticas Nacionais (REN), SA;
 
-## EIA/SEA Training Package {#training-package}
+<h2 id="training-package">EIA/SEA Training Package</h2>
 
 Within TRANSGREEN Project, a comprehensive EIA/SEA Training Package had
 been developed to help stakeholders obtain theoretical and mostly

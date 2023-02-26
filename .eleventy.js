@@ -9,6 +9,9 @@ const { EleventyRenderPlugin } = require("@11ty/eleventy");
 // Table of Content for markdown
 const pluginTOC = require('eleventy-plugin-toc')
 
+// search
+const { execSync } = require('child_process')
+
 module.exports = function(eleventyConfig) {
     // Copy the `css` directory to the output
     eleventyConfig.addPassthroughCopy("./src/styles");
@@ -45,7 +48,12 @@ module.exports = function(eleventyConfig) {
     }
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
-    eleventyConfig.addPlugin(pluginTOC)
+    eleventyConfig.addPlugin(pluginTOC);
+
+    //pagefind indexing after site building
+    eleventyConfig.on('eleventy.after', () => {
+        execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+    });
 
     // quizlet shortcode
     eleventyConfig.addShortcode("quizlet", (url) => 

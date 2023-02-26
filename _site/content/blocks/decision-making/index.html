@@ -19,7 +19,24 @@
 
 </head>
 <body>
-    <nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
+    
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({
+            element: "#search",
+            showImages: false
+        });
+    });
+</script>
+
+
+<script src="/assets/modal-open.js" type="text/javascript"></script>
+
+<nav class="navbar is-white has-shadow" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item center" href="/">
             <img src="/images/SPECTRA_logo_1nobackground.png" width="160px" height="36px">
@@ -38,6 +55,8 @@
             </div>
         </div>
         <div class="navbar-end">
+            
+            
             <a class="navbar-item" href="/">
                 <span class="icon">
                     <i class="fas fa-home"></i>
@@ -118,10 +137,28 @@
             </a>
             <a class="navbar-item" href="/contacts">
                 Contacts
-            </a>        
+            </a>            
+            <a class="navbar-item js-modal-search" data-target="modal-js-search">
+                <span class="icon">
+                    <i class="fas fa-search"></i>
+                </span>
+            </a>             
         </div>
     </div>
 </nav>
+
+<div id="modal-js-search" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Search</p>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <div id="search"></div>
+        </section>    
+    </div>
+</div>
 
 <script>
     document.addEventListener('DOMContentLoaded', () => {

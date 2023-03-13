@@ -74,28 +74,28 @@
                 </a>
                 <div class="navbar-dropdown">
                     
+                        <a class="navbar-item" href="content/blocks/innovations">
+                            Technological Innovations in transport and biodiversity
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/climate">
+                            Climate change, biodiversity and eco-connectivity
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/challenges">
+                            Transport development challenges for biodiversity
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/planning">
+                            Planning for technical, social and nature-closed responses / solutions
+                        </a>
+                    
+                        <a class="navbar-item" href="content/blocks/designing">
+                            Designing for technical, social and nature-closed responses / solutions
+                        </a>
+                    
                         <a class="navbar-item" href="content/blocks/SEA-EIA">
-                            SEA/EIA (Strategic Environmental Assessment / Environmental Impact Assessment)
-                        </a>
-                    
-                        <a class="navbar-item" href="content/blocks/overall-instructions">
-                            Topic to be defined
-                        </a>
-                    
-                        <a class="navbar-item" href="content/blocks/overall-explanation">
-                            Topic to be defined
-                        </a>
-                    
-                        <a class="navbar-item" href="content/blocks/national-specifics">
-                            Topic to be defined
-                        </a>
-                    
-                        <a class="navbar-item" href="content/blocks/decision-making">
-                            Topic to be defined
-                        </a>
-                    
-                        <a class="navbar-item" href="content/blocks/spatial-planning">
-                            Topic to be defined
+                            SEA / EIA
                         </a>
                                                    
                 </div>
@@ -186,7 +186,31 @@ $navbarBurgers.forEach( el => {
     
     <main class="hero is-fullheight">
         
+<link rel="stylesheet" href="/styles/back-button.css">
 
+<script  type="text/javascript">
+    // Get the button element
+    var mybutton = document.getElementById("backBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+<button onclick="topFunction()" id="backBtn" class="button backBtn" title="Go to top">Top</button>
 
 <article class="page-layout">
     <div class="container">

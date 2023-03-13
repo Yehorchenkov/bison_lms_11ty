@@ -52,7 +52,7 @@ module.exports = function(eleventyConfig) {
 
     //pagefind indexing after site building
     eleventyConfig.on('eleventy.after', () => {
-        execSync(`npx pagefind --source _site --glob \"**/*.html\"`, { encoding: 'utf-8' })
+        execSync(`npx pagefind --source _site`, { encoding: 'utf-8' })
     });
 
     // quizlet shortcode

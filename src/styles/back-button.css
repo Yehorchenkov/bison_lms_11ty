@@ -1,36 +1,19 @@
-#back-to-top-button {
-    display: inline-block;
-    background-color: #FF9800;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s, 
-      opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-  }
-  #back-to-top-button::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-  }
-  #back-to-top-button:hover {
-    cursor: pointer;
-    background-color: #333;
-  }
-  #back-to-top-button:active {
-    background-color: #555;
-  }
-  #back-to-top-button.show {
-    opacity: 1;
-    visibility: visible;
-  }
+#backBtn {
+  /* display: none; Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#backBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}

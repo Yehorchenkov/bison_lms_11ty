@@ -53,3 +53,18 @@ li {list-style-type: none;}
 .card-equal-height .card-footer {
 	margin-top: auto;
 }
+
+/*back to top button*/
+.back-to-top-button {
+	display: none; /*Hidden by default */
+  	position: fixed; /* Fixed/sticky position */
+  	bottom: 20px; /* Place the button at the bottom of the page */
+  	right: 30px; /* Place the button 30px from the right */
+}
+
+/*for smooth scrolling*/
+@media screen and (prefers-reduced-motion: no-preference) {
+	html {
+	  scroll-behavior: smooth;
+	}
+  }

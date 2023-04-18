@@ -105,7 +105,7 @@ development management consisting of:
 
 Figure 1: The system of spatial development management in Slovakia
 
-![](/notes/media/1_image1.png)
+![Scheme](/images/modules/decision-making/1_image1.png)
 
 Source: Scheme © Finka, M.; et al.; 2011
 

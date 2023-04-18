@@ -25,7 +25,7 @@ researched focusing on specific preconditions and requirements or
 potentials and limitations stemming from the frameworks defined by
 relevant spatial/urban planning system.
 
-![](/notes/media/3_image1.png)
+![bears and houses](/images/modules/decision-making/3_image1.png)
 
 Source: Photo © Interreg Danube Transnational Programme
 

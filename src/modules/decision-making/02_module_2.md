@@ -89,7 +89,7 @@ The process of the development of the roads and railway lines is very
 similar and includes the logic of steps starting with the scoping, via
 planning, designing, construction and use/maintenance and monitoring.
 
-![](/notes/media/2_image1.emf)
+![scheme](/images/modules/decision-making/2_image1.emf)
 
 Detailed look at the content of these phases shows differences depending
 of the kick-of situation. Based on this we can distinguish basically 3
@@ -101,7 +101,7 @@ A.  [Development of new roads and railway lines or their
 The overall flow of logically interlinked steps is represented by the
 phases shown in the following diagram:
 
-![](/notes/media/2_image2.emf)
+![scheme](/images/modules/decision-making/2_image2.emf)
 
 B.  [Update of existing roads and railways (modernising, extension in
     former corridors, increase of capacities, speed ...)]{.underline}
@@ -116,7 +116,7 @@ integration of the phases of planning and projecting as the strategic
 dimension of those phases is limited by absence of the localisation
 decisions.
 
-![](/notes/media/2_image3.emf)
+![scheme](/images/modules/decision-making/2_image3.emf)
 
 C.  [Improving ecological status of existing routes and
     railways]{.underline}
@@ -129,8 +129,8 @@ railway line depends on supportive interventions in broader area, the
 process has to include the planning and implementing ecologic,
 managerial and organisational intervention in broader area.
 
-![](/notes/media/2_image4.png)
-![](/notes/media/2_image5.emf)
+![scheme](/images/modules/decision-making/2_image4.png)
+![scheme](/images/modules/decision-making/2_image5.emf)
 
 ## Recommended readings:
 

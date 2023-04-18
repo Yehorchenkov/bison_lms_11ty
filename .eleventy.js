@@ -31,7 +31,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("./src/pdf-content/");
 
-    eleventyConfig.addPassthroughCopy("./src/notes/media/");
+    // eleventyConfig.addPassthroughCopy("./src/modules/");
     
     // favicon plugin
     eleventyConfig.addPlugin(faviconsPlugin, {});

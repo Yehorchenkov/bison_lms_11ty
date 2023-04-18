@@ -81,7 +81,7 @@ infrastructure developments threaten to cut through the movement
 corridors of large carnivores and increase the fragmentation of their
 habitats.
 
-![](/notes/media/0_image1.jpeg)
+![mountains and green plain](/images/modules/decision-making/0_image1.jpeg)
 
 Source: Photo © Thomas Hulik/WWF
 
@@ -113,7 +113,7 @@ protected areas of transnational relevance in the Carpathian ecoregion,
 namely in Czech Republic, Hungary, Romania, Slovakia, Serbia and
 Ukraine.
 
-![](/notes/media/0_image2.png)
+![people in forest](/images/modules/decision-making/0_image2.png)
 
 Source: Photo © Mac Stone/WWF-US
 
@@ -149,7 +149,7 @@ sites:
 4. Bükk National Park (Hungary) / Cerová vrchovina Protected Landscape
     Area (Slovakia)
 
-![](/notes/media/0_image3.png)
+![schematic map](/images/modules/decision-making/0_image3.png)
 
 Source: Photo © Interreg Danube Transnational Programme
 

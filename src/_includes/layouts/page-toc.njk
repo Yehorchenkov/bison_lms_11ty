@@ -18,9 +18,11 @@ layout: "layouts/base.njk"
                     <h1 class="title">{{ title }}</h1>
                     
                     <hr class="solid">
-
-                    {{ content | toc | safe }}
-
+                    
+                    <div class="toc-list">
+                        {{ content | toc | safe }}
+                    </div>
+                    
                     <hr class="solid">
 
                     {{ content | safe }}

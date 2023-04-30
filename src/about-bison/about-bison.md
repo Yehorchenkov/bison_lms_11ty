@@ -15,7 +15,7 @@ layout: layouts/page-toc.njk
 | Duration: | 30 months |
 | Start date: | 01/01/2021 |
 | End date: | 30/06/2023 |
-| Partners: | 39 partners from 16 countries |
+| Partners: | 43 partners from 16 countries |
 
 The BISON project focuses on infrastructure development and preservation of biodiversity, respectively, in order to achieve social and economic well-being. Resulting from this, two issues should be considered:
 

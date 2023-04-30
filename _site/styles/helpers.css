@@ -41,7 +41,7 @@ hr.solid {
   }
 
 /* Remove bullets from menu */
-/* use: <div class="toc"> */
+/* use: <div class="toc-list"> */
 .toc-list ul {list-style-type: none;}
 
 

@@ -41,8 +41,8 @@ hr.solid {
   }
 
 /* Remove bullets from menu */
-/* use: <div class="toc-list"> */
-.toc-list ul {list-style-type: none;}
+/* use: <div class="toc"> */
+div.toc ul {list-style-type: none;}
 
 
 /* for equal card height */

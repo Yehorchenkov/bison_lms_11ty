@@ -49,8 +49,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
     eleventyConfig.addPlugin(pluginTOC, {
-        ul: true,
-        wrapper: 'div style="ul {list-style-type: none"}'
+        ul: true        
     });
 
     //pagefind indexing after site building

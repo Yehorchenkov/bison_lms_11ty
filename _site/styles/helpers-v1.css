@@ -23,13 +23,28 @@
 	}
 }
 
+/* Mobile devices */
+@media (min-width: 1023px) {
+	.mobile {
+		display: none;
+	}
+}
+
+/* for reverse column order. For toc-menu on top*/
+/* @media(max-width: 767px) {
+	.reversed-columns {
+	  flex-direction: column-reverse;
+	  display: flex;
+	}
+} */
+
 /* Solid border */
 hr.solid {
 	border-top: 2px solid #F5F5F5;
 }
 
 /* stick menu */
-.menu {
+.menu-stick {
 	position: sticky;
 	display: inline-block;
 	vertical-align: top;
@@ -39,6 +54,7 @@ hr.solid {
 	bottom: 0;
 	padding: 10px;
   }
+
 
 /* Remove bullets from menu */
 /* use: <div class="toc"> */

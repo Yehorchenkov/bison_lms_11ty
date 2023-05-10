@@ -1,17 +1,16 @@
 ---
-layout: "layouts/base.njk"
+layout: "layouts/page-base.njk"
 ---
 
-<article class="page-layout">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8 is-offset-2">
-                <div class="content m-5" data-pagefind-body>
-                    {# <h1 class="title is-1">{{ title }}</h1> #}
+<link rel="stylesheet" href="/styles/back-button.css">
 
-                    {{ content | safe }}
-                </div>
-            </div>
+<div class="columns">
+    <div class="column is-8 is-offset-2">
+        <div class="content m-5" data-pagefind-body>
+            <h1 class="title">{{ title }}</h1>
+            
+            {{ content | safe }}
+
         </div>
     </div>
-</article>
+</div>

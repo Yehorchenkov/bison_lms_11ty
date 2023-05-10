@@ -203,8 +203,6 @@ are as follows:
     Existing monitoring arrange­ments may be used to avoid duplication of
     monitoring and unnecessary costs.
 
-1.  
-
 The EIA Directive applies to a wide range of public and private
 projects, which are defined in Annexes I and II:
 

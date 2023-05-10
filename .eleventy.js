@@ -49,8 +49,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
     eleventyConfig.addPlugin(pluginTOC, {
-        //wrapper: 'ul',           // element to put around the root `ol`/`ul`
-        // wrapperClass: 'menu-list',
+        // wrapper: 'ul',           // element to put around the root `ol`/`ul`
+        // wrapperClass: 'is-size-6',
         ul: true        
     });
 

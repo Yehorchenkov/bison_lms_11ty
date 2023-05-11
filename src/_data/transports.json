@@ -1,0 +1,17 @@
+{
+    "roads": {"name": "Roads",
+                "ref": "/content/transport/roads",
+                "icon": "fa-solid fa-road"},
+    "railways": {"name": "Railways",
+                "ref": "/content/transport/railways",
+                "icon": "fa-solid fa-train"},
+    "airports": {"name": "Airports",
+                "ref": "/content/transport/airports",
+                "icon": "fa-solid fa-plane"},
+    "ports": {"name": "Ports",
+                "ref": "/content/transport/ports",
+                "icon": "fa-solid fa-ship"},
+    "others": {"name": "Others",
+                "ref": "/content/transport/others",
+                "icon": "fa-solid fa-ellipsis"}
+}

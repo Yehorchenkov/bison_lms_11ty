@@ -11,7 +11,7 @@ layout: layouts/base.njk
                     <img src="images/bison-projects_logo.svg" width="350" height="120">                
                 </figure>
                 <div class="block center mt-6">
-                    <p class="title is-4">Spectra e-learning Platform contains courses<br>
+                    <p class="title is-4">{{site.title}} contains courses
                         developed as the result of implementation<br>
                         Bison EU Project</p>
                 </div>
@@ -46,4 +46,11 @@ layout: layouts/base.njk
 <section class="section">
     <h1 class="title has-text-centered">Stakeholder Blocks</h1>    
     {% include "groups.njk" %}
+</section>
+
+<hr class="solid">
+
+<section class="section">
+    <h1 class="title has-text-centered">Transport Modes Specifics</h1>    
+    {% include "transport.njk" %}
 </section>

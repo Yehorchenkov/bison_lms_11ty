@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="columns">
+        {% for key, val in transports %}
+            <div class="column">
+                <div class="card card-equal-height">                    
+                    <div class="card-content"> 
+                        <div class="media">
+                            <div class="media-left">
+                                <span class="icon">
+                                    <i class="{{ val.icon }}"></i>
+                                </span>
+                            </div>
+                            <div class="media-content">
+                                <p>{{ val.name }}</p>
+                            </div>                            
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="{{ val.ref }}" class="card-footer-item">Continue reading</a>
+                    </footer>
+                </div>                
+            </div>            
+        {% endfor %}
+    </div>
+</div>

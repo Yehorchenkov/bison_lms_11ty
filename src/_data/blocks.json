@@ -2,7 +2,8 @@
     "block_innovations": {"name": "Technological Innovations in transport and biodiversity",
                 "ref": "/content/blocks/innovations",
                 "ref_general": "/notes/innovations",
-                "header": "Block I"},
+                "header": "Block I",
+                "description": "This module has been elaborated building up on BISON project outputs, especially deliverable Seiler, A. et all (2022) Report on emerging trends and future challenges, Horizon 2020 project no. 101006661, BISON Biodiversity and Infrastructure Synergies and Opportunities for European Transport Network and resources as listed below."},
     "block_climate": {"name": "Climate change, biodiversity and eco-connectivity",
                 "ref": "/content/blocks/climate",
                 "ref_general": "/notes/climate",
@@ -20,6 +21,7 @@
                 "ref_general": "/notes/designing",
                 "header": "Block V"},
     "block_sea_eia": {"name": "SEA / EIA",
+                "name_ext": "Strategic Environmental Assessment / Environmental Impact Assessment",
                 "ref": "/content/blocks/SEA-EIA",
                 "ref_general": "/notes/SEA-EIA",
                 "header": "Block VI"}    

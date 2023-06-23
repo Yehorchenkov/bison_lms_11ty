@@ -1,6 +1,5 @@
 ---
-title: "Thematic block 1: SEA/EIA (Strategic Environmental Assessment /
-Environmental Impact Assessment)"
+block_name: "block_sea_eia"
 description: "Here should be description for generating content page"
 layout: layouts/page-toc.njk
 ---

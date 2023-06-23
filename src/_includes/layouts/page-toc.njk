@@ -2,17 +2,11 @@
 layout: "layouts/page-base.njk"
 ---
 
-{# <button onclick="topFunction()" id="back_btn" class="button is-success back-to-top-button is-hidden-mobile">
-    <span class="icon">
-        <i class="fa-solid fa-arrow-up"></i>
-    </span>
-</button> #}
-
 <div class="columns">
     <div class="column is-8 is-offset-2">                
-        <div class="content m-5" data-pagefind-body>
+        <div class="content m-5 has-text-justified" data-pagefind-body>
 
-            <h1 class="title">{{ title }}</h1>
+            <h1 class="title">{{ blocks[block_name].name }}</h1>            
 
             <hr class="solid">
 

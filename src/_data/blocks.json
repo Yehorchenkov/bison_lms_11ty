@@ -3,11 +3,14 @@
                 "ref": "/content/blocks/innovations",
                 "ref_general": "/notes/innovations",
                 "header": "Block I",
-                "description": "This module has been elaborated building up on BISON project outputs, especially deliverable Seiler, A. et all (2022) Report on emerging trends and future challenges, Horizon 2020 project no. 101006661, BISON Biodiversity and Infrastructure Synergies and Opportunities for European Transport Network and resources as listed below."},
+                "description": "This module has been elaborated building up on BISON project outputs, especially deliverable Seiler, A. et all (2022) Report on emerging trends and future challenges, Horizon 2020 project no. 101006661, BISON Biodiversity and Infrastructure Synergies and Opportunities for European Transport Network and resources as listed below."
+            },
     "block_climate": {"name": "Climate change, biodiversity and eco-connectivity",
-                "ref": "/content/blocks/climate",
-                "ref_general": "/notes/climate",
-                "header": "Block II"},
+                "ref": "/content/blocks/climate-change",
+                "ref_general": "/notes/climate-change",
+                "header": "Block II",
+                "description": "This module has been elaborated building up on BISON project outputs, especially Deliverable D3.4 “Report on emerging trends and future challenges” and complementary resources are listed as footnotes in relevant places."
+            },
     "block_challenges": {"name": "Transport development challenges for biodiversity",
                 "ref": "/content/blocks/challenges",
                 "ref_general": "/notes/challenges",

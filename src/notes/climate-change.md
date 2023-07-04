@@ -70,11 +70,11 @@ gases (GHGs) into the atmosphere. The Intergovernmental Panel on Climate
 Change (IPCC) has repeatedly emphasized the human influence on global
 warming.
 Current status and trends have been synthesized and reported especially
-for the policy-makers most recently in March 2023 by IPCC[^1].
+for the policy-makers most recently in March 2023 by [IPCC](https://www.ipcc.ch/report/ar6/syr/).
 
 2. Temperature Rise: Global temperatures have been rising over the past
 century, and the rate of warming has accelerated in recent decades. The
-IPCC\'s Fifth Assessment Report (AR5) stated that the average global
+IPCC's Fifth Assessment Report (AR5) stated that the average global
 surface temperature has increased by about 0.85 degrees Celsius since
 the late 19th century, with most of the warming occurring since the
 1970s.
@@ -217,16 +217,16 @@ global scales.
 
 *Reference* *readings*
 
--   Sandström, U. G., & Elander, I. (2021). Biodiversity, road transport
+-   [Sandström, U. G., & Elander, I. (2021).](/files/IslandandthePipelineFINAL.pdf) Biodiversity, road transport
     and urban planning: A Swedish local authority facing the challenge
     of establishing a logistics hub adjacent to a Natura 2000 site.
     Progress in Planning, 148, 100463.
 
--   Spooner, P. (2015). Minor rural road networks: values, challenges,
+-   [Spooner, P. (2015).](/files/2019BiodiversityDreamingbookchapterTSRpathways.pdf) Minor rural road networks: values, challenges,
     and opportunities for biodiversity conservation. Nature
     Conservation, 11, 129-142.
 
--   Bennett, V. J. (2017). Effects of road density and pattern on the
+-   [Bennett, V. J. (2017).](/files/s40823-017-0020-6.pdf) Effects of road density and pattern on the
     conservation of species and biodiversity. Current Landscape Ecology
     Reports, 2, 1-11.
 
@@ -278,8 +278,8 @@ ongoing environmental challenges.
 
 *Reference readings*
 
--   Papp, C. R., Dostál, I., Hlaváč, V., Berchi, G. M., & Romportl, D.
-    (2022). ﻿ Rapid linear transport infrastructure development in the
+-   [Papp, C. R., Dostál, I., Hlaváč, V., Berchi, G. M., & Romportl, D.
+    (2022).](/files/State_of_the_ArtReport.pdf) Rapid linear transport infrastructure development in the
     Carpathians: A major threat to the integrity of ecological
     connectivity for large carnivores. *Nature Conservation*, *47*,
     35-63.

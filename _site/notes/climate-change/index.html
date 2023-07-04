@@ -261,7 +261,7 @@ gases (GHGs) into the atmosphere. The Intergovernmental Panel on Climate
 Change (IPCC) has repeatedly emphasized the human influence on global
 warming.
 Current status and trends have been synthesized and reported especially
-for the policy-makers most recently in March 2023 by IPCC[^1].</p>
+for the policy-makers most recently in March 2023 by <a href="https://www.ipcc.ch/report/ar6/syr/">IPCC</a>.</p>
 </li>
 <li>
 <p>Temperature Rise: Global temperatures have been rising over the past
@@ -414,18 +414,18 @@ global scales.</p>
 <p><em>Reference</em> <em>readings</em></p>
 <ul>
 <li>
-<p>Sandström, U. G., &amp; Elander, I. (2021). Biodiversity, road transport
+<p><a href="/files/IslandandthePipelineFINAL.pdf">Sandström, U. G., &amp; Elander, I. (2021).</a> Biodiversity, road transport
 and urban planning: A Swedish local authority facing the challenge
 of establishing a logistics hub adjacent to a Natura 2000 site.
 Progress in Planning, 148, 100463.</p>
 </li>
 <li>
-<p>Spooner, P. (2015). Minor rural road networks: values, challenges,
+<p><a href="/files/2019BiodiversityDreamingbookchapterTSRpathways.pdf">Spooner, P. (2015).</a> Minor rural road networks: values, challenges,
 and opportunities for biodiversity conservation. Nature
 Conservation, 11, 129-142.</p>
 </li>
 <li>
-<p>Bennett, V. J. (2017). Effects of road density and pattern on the
+<p><a href="/files/s40823-017-0020-6.pdf">Bennett, V. J. (2017).</a> Effects of road density and pattern on the
 conservation of species and biodiversity. Current Landscape Ecology
 Reports, 2, 1-11.</p>
 </li>
@@ -478,8 +478,8 @@ ongoing environmental challenges.</p>
 <p><em>Reference readings</em></p>
 <ul>
 <li>
-<p>Papp, C. R., Dostál, I., Hlaváč, V., Berchi, G. M., &amp; Romportl, D.
-(2022). ﻿ Rapid linear transport infrastructure development in the
+<p><a href="/files/State_of_the_ArtReport.pdf">Papp, C. R., Dostál, I., Hlaváč, V., Berchi, G. M., &amp; Romportl, D.
+(2022).</a> Rapid linear transport infrastructure development in the
 Carpathians: A major threat to the integrity of ecological
 connectivity for large carnivores. <em>Nature Conservation</em>, <em>47</em>,
 35-63.</p>
@@ -711,3 +711,35 @@ document.querySelectorAll('section[id]').forEach((section) => {
     </main>    
 </body>
 </html>
+
+<script>
+
+    /*
+    
+      anchor tag pdfs target attribute _blank add
+      
+      Version     : 0.1d0
+      
+      SS Versions : 7.1, 7.0
+      
+      By          : Thomas Creedon < http://www.tomsWeb.consulting/ >
+      
+      no user serviceable parts below
+      
+      */
+      
+      window.addEventListener ( 'DOMContentLoaded', ( ) => {
+      
+        const elements = document.querySelectorAll ( '[href$=".pdf"]' );
+        
+        elements.forEach ( ( element ) => {
+        
+          element.setAttribute ( 'target', '_blank' );
+          
+          } );
+          
+        } );
+        
+      /* end anchor tag pdfs target attribute _blank add */
+      
+    </script>

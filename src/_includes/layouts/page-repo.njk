@@ -1,0 +1,16 @@
+---
+layout: "layouts/page-base.njk"
+---
+
+<link rel="stylesheet" href="/styles/back-button.css">
+
+<div class="columns">
+    <div class="column is-full">
+        <div class="content m-5 has-text-justified" data-pagefind-body>
+            <h1 class="title">{{ title }}</h1>
+            
+            {{ content | safe }}
+
+        </div>
+    </div>
+</div>

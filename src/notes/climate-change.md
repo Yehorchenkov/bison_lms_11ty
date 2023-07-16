@@ -284,11 +284,11 @@ ongoing environmental challenges.
     connectivity for large carnivores. *Nature Conservation*, *47*,
     35-63.
 
--   Carlier, J., & Moran, J. (2019). Landscape typology and ecological
+-   [Carlier, J., & Moran, J. (2019).](/files/Carlier_2019.pdf) Landscape typology and ecological
     connectivity assessment to inform Greenway design. *Science of the
     Total Environment*, *651*, 3241-3252.
 
--   Loro, M., Ortega, E., Arce, R. M., & Geneletti, D. (2015).
+-   [Loro, M., Ortega, E., Arce, R. M., & Geneletti, D. (2015).](/files/1-s2.0-S0169204615000602-main.pdf)
     Ecological connectivity analysis to reduce the barrier effect of
     roads. An innovative graph-theory approach to define wildlife
     corridors with multiple paths and without bottlenecks. *Landscape

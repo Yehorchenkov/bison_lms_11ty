@@ -21,21 +21,21 @@ The main E-learning platform objectives are listed below:
 The main idea on the navigation of the E-learning platform is to provide a user-friendly access to relevant information for different stakeholder and interest groups based on targeted approach. This targeting is achieved by considering two dimensions: the stakeholders' roles in transport infrastructure development and their specific interests related to issues in transport infrastructure development, biodiversity protection, and enhancement. In a visual form such approach can be presented as a matrix with stakeholders' roles on the horizontal axis and their specific interests on the vertical axis.The matrix cells represent a piece of information relevant to specific stakeholder's role and its interest. The matrix is presented below:
 
 <figure>
-    <img src="/images/about-e-learning/matrix.png" alt="Philosophy of e-learning platform">
+    {% image "about-e-learning/matrix.png", "Philosophy of e-learning platform" %}
     <figcaption>Figure 1. The main idea of the E-Learning Platform</figcaption>
 </figure>
 
 Such approach means that one have a clear access to all necessary information as a specific stakeholder on the one hand  (Fig. 2)
 
 <figure>
-    <img src="/images/about-e-learning/screenshot-stakeholders.png" alt="Screenshot of stakeholders block">
+    {% image "about-e-learning/screenshot-stakeholders.png", "Screenshot of stakeholders block" %}
     <figcaption>Figure 2. Stakeholders</figcaption>
 </figure>
 
 and on the other hand one can easily find all relevant information for a specific interest (thematic block) (Fig. 3).
 
 <figure>
-    <img src="/images/about-e-learning/screenshot-interests.png" alt="Screenshot of thematic block">
+    {% image "about-e-learning/screenshot-interests.png", "Screenshot of thematic block" %}
     <figcaption>Figure 3. Thematic blocks</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Stakeholder group and thematic blocks are presented on the main page of the E-Le
 The information that the E-Learning platform provides for different transport modes is represented by a separate block (Fig. 4).
 
 <figure>
-    <img src="/images/about-e-learning/screenshot-transport-modes.png" alt="Screenshot of transport modes block">
+    {% image "about-e-learning/screenshot-transport-modes.png", "Screenshot of transport modes block" %}
     <figcaption>Figure 4. Transport modes</figcaption>
 </figure>
 

@@ -5,7 +5,7 @@ layout: layouts/page-toc.njk
 
 <h2 id="general-information">General information</h2>
 
-<img src="/images/bison-projects_logo.svg" width="300px">
+<img src="/img-original/bison-projects_logo.svg" width="300px">
 
 |  |  |
 |--|--|

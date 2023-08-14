@@ -136,7 +136,7 @@ addressed as follows:
     <h4>Six levels of automation in vehicular technology</h4>
 
     <figure>
-        <img src="/images/innovations/automation.png" alt="Six levels of automation in vehicular technology">
+        {% image "innovations/automation.png", "Six levels of automation in vehicular technology" %}
         <figcaption>Redrawn from: (Verwoort et al., 2017). </figcaption>
     </figure>
 </div>
@@ -217,7 +217,7 @@ regulations, and with the internet at large supporting e.g., delivery
 schemes, personal time schedules and intermodal connections.
 
 <figure>
-    <img src="/images/innovations/automation.png" alt="Six levels of automation in vehicular technology">
+    {% image "innovations/automation.png", "Six levels of automation in vehicular technology" %}
     <figcaption>Figure 1-1: Six levels of automation in vehicular technology defined by the Society of Automotive Engineers in 2014. Redrawn from: (Verwoort et al., 2017).</figcaption>
 </figure>
 

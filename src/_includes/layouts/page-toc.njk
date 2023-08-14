@@ -25,7 +25,7 @@ layout: "layouts/page-base.njk"
     
     <div class="column is-2">
         <aside class="menu menu-stick mt-3 is-hidden-touch">
-            <p class="has-text-success">On this page</p>
+            <p class="menu-label has-text-success">On this page</p>
             <div class="content is-normal toc-list is-size-7">
                 {{ content | toc | safe }}
             </div>
@@ -33,6 +33,30 @@ layout: "layouts/page-base.njk"
     </div>
 
 </div>
+
+{# <script type="text/javascript">
+    const anchors = document.querySelectorAll('h2');
+const links = document.querySelectorAll('nav > ul > li > a');
+
+window.addEventListener('scroll', (event) => {
+  if (typeof(anchors) != 'undefined' && anchors != null && typeof(links) != 'undefined' && links != null) {
+    let scrollTop = window.scrollY;
+    
+    // highlight the last scrolled-to: set everything inactive first
+    links.forEach((link, index) => {
+      link.classList.remove("is-active");
+    });
+    
+    // then iterate backwards, on the first match highlight it and break
+    for (var i = anchors.length-1; i >= 0; i--) {
+      if (scrollTop > anchors[i].offsetTop - 75) {
+        links[i].classList.add('is-active');
+        break;
+      }
+    }
+  }
+});
+</script> #}
 
 <script type="text/javascript">
     // For highlight toc menu. Not working now

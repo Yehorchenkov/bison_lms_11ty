@@ -1,16 +1,20 @@
-const faviconsPlugin = require("eleventy-plugin-gen-favicons");
-
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 
+// const eleventyWebcPlugin = require("@11ty/eleventy-plugin-webc");
+// const { eleventyImagePlugin } = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img");
+
+const faviconsPlugin = require("eleventy-plugin-gen-favicons");
+
 // Table of Content for markdown
-const pluginTOC = require('eleventy-plugin-toc')
+const pluginTOC = require('eleventy-plugin-toc');
 
 // search
-const { execSync } = require('child_process')
+const { execSync } = require('child_process');
 
 module.exports = function(eleventyConfig) {
     // Copy the `css` directory to the output
@@ -19,11 +23,11 @@ module.exports = function(eleventyConfig) {
     // Watch the `css` directory for changes
     eleventyConfig.addWatchTarget('./src/styles');
 
-    eleventyConfig.addPassthroughCopy("./src/images/");
+    // eleventyConfig.addPassthroughCopy("./src/images/");
+
+    eleventyConfig.addPassthroughCopy("./src/img-original/");
     
     eleventyConfig.addPassthroughCopy({"./src/favicons": "/"});
-
-    // eleventyConfig.addPassthroughCopy("./src/favicons")
 
     eleventyConfig.addPassthroughCopy("./src/assets/");
 
@@ -54,8 +58,56 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("sortByPageOrder", sortByPageOrder);
 
     eleventyConfig.addPlugin(pluginTOC, {        
-        ul: true        
+        ul: true,
+        wrapper: 'toc',
+        wrapperClass: 'menu-list'     
     });
+
+    // WebC
+	// eleventyConfig.addPlugin(eleventyWebcPlugin, {
+	// 	components: [
+	// 		// …
+	// 		// Add as a global WebC component
+	// 		"npm:@11ty/eleventy-img/*.webc",
+	// 	]
+	// });
+
+    // Image plugin
+	// eleventyConfig.addPlugin(eleventyImagePlugin, {
+	// 	// Set global default options
+	// 	formats: ["webp", "jpeg"],        
+	// 	urlPath: "/images/",
+    //     outputDir: "./_site/images/",
+        
+	// 	// Notably `outputDir` is resolved automatically
+	// 	// to the project output directory
+
+	// 	defaultAttributes: {
+	// 		loading: "lazy",
+	// 		decoding: "async"           
+	// 	}        
+	// });
+
+    // Image shortcode
+    eleventyConfig.addShortcode("image", async function(src, alt, width, sizes) {
+        const widths = width ? [width, width * 2] : [300, 800, "auto"];
+		let metadata = await Image(`./src/images/${src}`, {
+			widths: widths,
+			formats: ["avif", "jpeg"],
+            urlPath: "/images/",
+            outputDir: "_site/images/"
+		});
+
+		let imageAttributes = {
+			alt,
+			sizes: "(min-width: 30em) 50vw, 100vw",
+			loading: "lazy",
+			decoding: "async",
+		};
+
+		// You bet we throw an error on a missing alt (alt="" works okay)
+		return Image.generateHTML(metadata, imageAttributes);
+	});
 
     //pagefind indexing after site building
     eleventyConfig.on('eleventy.after', () => {

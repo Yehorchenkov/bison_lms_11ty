@@ -6,7 +6,8 @@
                     <div class="card card-equal-height shadow-lg is-cursor-pointer">
                         <div class="card-image cover-image is-overflow-hidden">
                             <figure class="image is-4by3">
-                                <img src="{{ val.image }}" alt="{{ val.alt }}">
+                                {# <img src="{{ val.image }}" alt="{{ val.alt }}"> DEL #}
+                                {% image val.image, val.alt, 300 %}
                             </figure>
                         </div>              
                         <div class="card-content">

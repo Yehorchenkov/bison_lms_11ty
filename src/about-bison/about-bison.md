@@ -95,4 +95,4 @@ List of BISON project participants includes 43 organization from 16 countries
 
 If you are interested in learning more about the Bison project, you can visit the <a href="https://bison-transport.eu/" target="_blank">website</a> for more details.
 
-You can also find more information from the <a href="https://bison-transport.eu/wp-content/uploads/2022/04/bison-presentation.pdf" target="_blank">presentation</a> about the project.
+You can also find more information from the <a href="/files/bison-presentation.pdf" target="_blank">presentation</a> about the project.

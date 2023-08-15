@@ -139,8 +139,9 @@ the transport sector is central to the concept of sustainable
 development. However, to cope with the inevitable and existing impact on
 people and ecosystems, transport infrastructures as well as many other
 land use and engineering practices must adapt. These adaptation provide
-certain opportunities to improve conditions for Deliverable D3.4 Report
-on emerging trends and future challenges -- July 7, 2022 Page 10 of 125
+certain opportunities to improve conditions for [Deliverable D3.4 Report
+on emerging trends and future challenges](/files/D3.4_Report-on-emerging-trends-and-future-challenges.pdf)
+ -- July 7, 2022 Page 10 of 125
 biodiversity, but as with new infrastructure, it requires a holistic and
 inclusive approach to benefit from these changes.
 
@@ -296,3 +297,181 @@ ongoing environmental challenges.
 
 <h2 id="bison-outputs">BISON outputs</h2>
 
+By leveraging the outputs of the BISON Project and previous relevant
+projects, policymakers, researchers, and practitioners gain access to a
+wealth of data-driven insights and practical solutions. These resources
+enable evidence-based decision-making, effective conservation planning,
+and the development of sustainable strategies to address the intricate
+relationship between climate change, biodiversity, and eco-connectivity
+in this module. There are set of ways of solutions that can be found
+here.
+
+<h2 id="climate-change-impact-biodiversity">Climate change impact on biodiversity and ways to cope with drastic outcomes</h2>
+
+Climate change has significant impacts on biodiversity, leading to both
+direct and indirect consequences for species, ecosystems, and ecological
+processes. Some of the key impacts of climate change on biodiversity
+include:
+
+Habitat Loss and Fragmentation: Rising temperatures and altered
+precipitation patterns can cause shifts in vegetation zones and the loss
+of critical habitats. Many species have specific habitat requirements
+and are adapted to particular climatic conditions. As these conditions
+change, suitable habitats may become fragmented or disappear altogether,
+resulting in the loss of biodiversity.
+
+**Ways of Solution: European Defragmentation Map**
+
+[**Bundling of transport infrastructure (TI) with photovoltaic facilities and bundling of TI with one another: Standards for safeguarding biological diversity and for accelerating planning procedures.**](/files/ReckEtAl2023_bundling_TI-PVGMS_TI-TI.pdf)
+
+Bundling is not automatically a mitigating precaution against increasing
+fragmentation, although if the interspaces or facilities are suitably
+designed, there may even be advantages in terms of safeguarding habitat
+networks. At first glance, bundling projects reduce landscape
+fragmentation, but when looking at a larger scale, it often becomes
+apparent that fragmentation effects are intensified by bundling and that
+reconnection measures can become impossible or very costly due to
+bundling. Instead of minimising negative effects on nature, bundling can
+lead to excessively increased land and material consumption, higher
+emissions, enormous barrier effects and excessive costs. Therefore, a
+comprehensive ecological and economic balance of bundling options and
+alternatives is always required. In any bundling, it must be ensured
+that ecological networks (biotope network / biotope connectivity /
+migration corridors) or their restorability are sufficiently
+safeguarded. For this purpose, preliminary standard requirements and
+proposed solutions are formulated and the corresponding need for
+research is outlined.
+
+Species Range Shifts and Distribution Changes: As temperatures warm,
+many species are forced to shift their ranges to find suitable climates.
+This movement can lead to changes in species distribution patterns, as
+they migrate towards higher latitudes or higher elevations. However,
+some species may be unable to disperse quickly enough, leading to
+localized extinctions.
+
+Altered Phenology and Synchrony: Climate change can disrupt the timing
+of key life cycle events, such as breeding, migration, and flowering.
+For example, warmer temperatures can cause species to emerge from
+hibernation or migrate earlier than usual. These changes can disrupt
+crucial ecological interactions, such as predator-prey relationships and
+pollination dynamics, leading to imbalances within ecosystems.
+
+Increased Species Vulnerability: Climate change can exacerbate existing
+stressors and increase the vulnerability of species to other threats.
+For example, rising temperatures can weaken species\' immune systems,
+making them more susceptible to diseases and parasites. Additionally,
+extreme weather events, such as heatwaves or hurricanes, can directly
+harm or kill individuals, especially those that are already under
+pressure from habitat loss or degradation.
+
+Loss of Genetic Diversity: Climate change can reduce the genetic
+diversity within populations, as certain genetic traits become favored
+or disadvantaged under new environmental conditions. Reduced genetic
+diversity diminishes the ability of species to adapt to changing
+climates and increases their risk of extinction.
+
+Coral Bleaching and Ocean Acidification: Climate change affects marine
+biodiversity through phenomena like coral bleaching and ocean
+acidification. Increasing ocean temperatures cause corals to expel the
+symbiotic algae living within their tissues, leading to coral bleaching
+and, in severe cases, coral death. Ocean acidification, caused by the
+absorption of excess carbon dioxide by seawater, can weaken the shells
+and skeletons of marine organisms, such as corals and shellfish.
+
+These impacts on biodiversity have far-reaching consequences for
+ecosystem functioning, food security, and human well-being. It
+highlights the urgent need to mitigate climate change through reducing
+greenhouse gas emissions, as well as to implement strategies for the
+adaptation and conservation of vulnerable species and ecosystems.
+
+[**Ways of solution for transport: Deliverable 3.4. Chapter 2 CLIMATE CHANGE ADAPTATION AND MITIGATION OF TRANSPORT INFRASTRUCTURES AND RELATED EFFECTS ON BIODIVERSITY**](/files/D3.4_Report-on-emerging-trends-and-future-challenges.pdf)
+
+Key messages from the deliverable
+
+- Climate change is already impacting human societies and ecosystems;
+- Public policies play a key role in mitigation and adaptation measures;
+- Mitigation (to prevent further acceleration of climate change) and
+adaptation (to reduce its impact on transport and environment) are
+essential
+- Adaptation offers opportunities to mainstream biodiversity in the
+transport sector by means of technical as well as nature-based
+solutions;
+- Decision-makers should employ tools to identify specific
+vulnerabilities in their territory and prepare adaptations measures accordingly.
+
+*Reference readings*
+
+- [Reck, Heinrich & Peter, F & Trautner, Jürgen & Böttcher, Marita & Strein, Martin & Herrmann, M & Meinig, Holger & Nissen, Henning & Weidler, M. (2023)](/files/ReckEtAl2023_bundling_TI-PVGMS_TI-TI.pdf). Bundling of transport infrastructure (TI) with photovoltaic facilities and bundling of TI with one another: Standards for safeguarding biological diversity and for accelerating planning procedures - A contribution to Deliverable 5.3 of the Horizon 2020 BISON project. 10.13140/RG.2.2.11551.74408.
+
+<h2 id="climate-change-impact-eco-connectuvity">Climate change impact on eco-connectivity and ways to cope with drastic outcomes</h2>
+
+<figure>
+    {% image "climate-change/relationship-climat-change.png", "Relationship between climate change, biodiversity, and good quality of life" %}
+    <figcaption>Figure 2-1: Relationship between climate change, biodiversity, and good quality of life. Blue arrows represent interactions that are predominantly threats. Source: P&ouml;rtner at al., 2021</figcaption>
+</figure>
+
+Climate change can have significant impacts on eco-connectivity,
+disrupting the movement of species and ecological processes across
+landscapes. These impacts include:
+
+1. Altered Habitat Suitability: Climate change can shift the
+suitability of habitats, making previously suitable areas unsuitable for
+certain species and favoring new areas. This can lead to mismatches
+between species\' ranges and available ecological corridors, hindering
+their movement and dispersal.
+
+2. Barrier Effects: Climate change can create physical barriers that
+impede species movement. For example, rising sea levels can inundate
+coastal habitats, fragmenting terrestrial ecosystems and limiting
+species\' ability to migrate or access critical resources.
+
+3. Phenological Mismatches: Changes in the timing of seasonal events,
+such as flowering, migration, or hibernation, can disrupt the synchrony
+between species and their ecological interactions. Phenological
+mismatches can affect the availability of food resources, pollination
+services, and predator-prey relationships, further impacting
+eco-connectivity.
+
+To cope with the drastic outcomes of climate change on eco-connectivity,
+several strategies can be employed:
+
+1. Protect and Restore Ecological Corridors: Identifying, conserving,
+and restoring ecological corridors that facilitate species movement is
+crucial. These corridors can range from natural habitats, such as
+forests and rivers, to man-made features like green spaces and wildlife
+corridors. Protecting existing corridors and creating new ones can
+enhance eco-connectivity and provide pathways for species to adapt to
+changing conditions.
+
+2. Enhance Landscape Connectivity: Implementing landscape-scale
+conservation approaches that promote connectivity across entire regions
+is essential. This involves land-use planning that considers
+connectivity, reducing habitat fragmentation, and promoting habitat
+connectivity in both protected areas and human-dominated landscapes.
+
+3. Assisted Migration: In situations where species are unable to
+naturally shift their ranges due to various barriers, assisted migration
+techniques can be considered. This involves translocating species to
+more suitable habitats within their potential range, helping them adapt
+to changing climatic conditions and maintain connectivity.
+
+4. Climate-Informed Conservation Planning: Incorporating climate change
+projections into conservation planning efforts is critical. By
+considering future climate scenarios, conservation strategies can
+prioritize areas that are likely to remain suitable for species and
+provide connectivity options in the face of changing conditions.
+
+5. Collaboration and Policy Interventions: Addressing the challenges of
+climate change and eco-connectivity requires collaboration among
+stakeholders, including scientists, policymakers, land managers, and
+local communities. Robust policy interventions and international
+agreements that prioritize biodiversity conservation and climate change
+mitigation are essential to ensure coordinated actions and long-term
+success.
+
+It is important to note that coping with the drastic outcomes of climate
+change on eco-connectivity requires a multi-faceted approach that
+integrates ecological, social, and political dimensions. Continual
+monitoring, adaptive management, and ongoing research are crucial to
+assess the effectiveness of conservation strategies and adapt them to
+changing circumstances.

@@ -99,3 +99,9 @@ hr.solid {
 	  scroll-behavior: smooth;
 	}
   }
+
+/*bulma selector is-active background color*/
+.menu-list a.is-active {
+	background-color: #00D1B2;
+	color: #fff;
+  }

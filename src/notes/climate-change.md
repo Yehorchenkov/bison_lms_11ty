@@ -1,8 +1,10 @@
 ---
 layout: layouts/page-toc.njk
 block_name: "block_climate"
-description: "This module has been elaborated building up on BISON project outputs, especially Deliverable D3.4 “Report on emerging trends and future challenges” and complementary resources are listed as footnotes in relevant places."
+description: "This module has been elaborated building up on BISON project outputs, especially [Deliverable D3.4 Report on emerging trends and future challenges](/files/D3.4_Report-on-emerging-trends-and-future-challenges.pdf) and complementary resources are listed as footnotes in relevant places."
 ---
+
+{% set title = blocks[block_name].name %}
 
 <h2 id="introduction">Short introduction on the relationship between concepts</h2>
 

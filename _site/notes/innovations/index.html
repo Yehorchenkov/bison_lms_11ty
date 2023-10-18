@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/helpers-v2.css">
+    <link rel="stylesheet" href="/styles/helpers-v3.css">
     <link rel="stylesheet" href="/styles/cards.css">    
     <script src="https://kit.fontawesome.com/9d4ed40e5e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/table-sort-js/table-sort.min.js"></script>
@@ -87,7 +87,7 @@
                 <div class="navbar-dropdown">
                     
                         <a class="navbar-item" href="/content/blocks/innovations">
-                            Technological Innovations in transport and biodiversity
+                            Technological innovations in transport and biodiversity
                         </a>
                     
                         <a class="navbar-item" href="/content/blocks/climate-change">
@@ -160,8 +160,6 @@
     
     <main class="hero is-fullheight">
         
-<link rel="stylesheet" href="/styles/back-button.css">
-
 <button onclick="topFunction()" id="back_btn" class="button is-success back-to-top-button is-hidden-mobile">
     <span class="icon">
         <i class="fa-solid fa-arrow-up"></i>
@@ -178,7 +176,7 @@
     <div class="column is-8 is-offset-2">                
         <div class="content m-5 has-text-justified" data-pagefind-body>
 
-            <h1 class="title">Technological Innovations in transport and biodiversity</h1>            
+            <h1 class="title"></h1>            
 
             <hr class="solid">
 
@@ -332,10 +330,10 @@ hyperloops lines,)</p>
     <h4>Six levels of automation in vehicular technology</h4>
 <p><figure>
 <picture><source type="image/avif" srcset="/images/Fduk2VXuCU-300.avif 300w, /images/Fduk2VXuCU-800.avif 800w, /images/Fduk2VXuCU-924.avif 924w" sizes="(min-width: 30em) 50vw, 100vw"><source type="image/jpeg" srcset="/images/Fduk2VXuCU-300.jpeg 300w, /images/Fduk2VXuCU-800.jpeg 800w, /images/Fduk2VXuCU-924.jpeg 924w" sizes="(min-width: 30em) 50vw, 100vw"><img alt="Six levels of automation in vehicular technology" loading="lazy" decoding="async" src="/images/Fduk2VXuCU-300.jpeg" width="924" height="752"></picture>
-<figcaption>Redrawn from: (Verwoort et al., 2017). </figcaption>
+<figcaption>Redrawn from: (<a href="/files/public%20support%20measures%20for%20connected%20and%20automated-EA0117634ENN.pdf">Vervoort et al., 2017</a>). </figcaption>
 </figure></p>
 </div>
-<p>The main technology developments for future sustainable mobility seems to be concentrated in 3 main domains (see as well Barceló, 2019):</p>
+<p>The main technology developments for future sustainable mobility seems to be concentrated in 3 main domains (see as well <a href="/files/3-s2.0-B9780128142424000168-main.pdf">Barceló, 2019</a>):</p>
 <ul>
 <li>Innovations based on the use of information and communication technologies, robotization and automation,</li>
 <li>Vehicular and infrastructure technology,</li>
@@ -363,7 +361,8 @@ sensor networks that inform the vehicles' AI about all driving
 parameters such as e.g., speed, distance to next vehicle ahead,
 proximity to objects near the vehicle, the presence of road demarcations
 or the detection of humans and larger wildlife next to the road
-(Verwoort et al., 2017). This also creates immense opportunities for AI
+(<a href="/files/public%20support%20measures%20for%20connected%20and%20automated-EA0117634ENN.pdf">Vervoort et al., 2017</a>).
+This also creates immense opportunities for AI
 machinebased learning. For example, the car will remember events linked
 to GPS positions, learn to foresee risks, and hence pre-emptively
 counteract, such as by reducing travel speed at times and locations
@@ -452,9 +451,9 @@ ships.</p>
     </div>
     
     <div class="column is-2">
-        <aside class="menu menu-stick mt-3 is-hidden-touch">
-            <p class="menu-label has-text-success">On this page</p>
-            <div class="content is-normal toc-list is-size-7">
+        <aside class="menu menu-stick mt-3 is-hidden-touch">        
+            <p class="has-text-success">On this page</p>
+            <div class="is-normal toc-list is-size-7">
                 <toc class="menu-list" >
         <ul><li><a href="#introduction">Introduction</a></li><li><a href="#development-innovation">Development and innovations in transport technologies</a><ul><li><a href="#transport-means">Innovations of transport means</a></li></ul></li></ul>
       </toc>
@@ -464,30 +463,10 @@ ships.</p>
 
 </div>
 
+<script src="/assets/highlight-toc.js"></script>
 
 
-<script type="text/javascript">
-    // For highlight toc menu. Not working now
-    window.addEventListener('DOMContentLoaded', () => {
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        const id = entry.target.getAttribute('id');
-        if (entry.intersectionRatio > 0) {
-            document.querySelector(`li a[href="#${id}"]`).parentElement.classList.add('is-active');
-        } else {
-            document.querySelector(`li a[href="#${id}"]`).parentElement.classList.remove('is-active');
-        }
-    });
-});
-
-// Track all sections that have an `id` applied
-document.querySelectorAll('section[id]').forEach((section) => {
-    observer.observe(section);
-});
-
-});
-</script>
 
 
     </div>
@@ -535,7 +514,7 @@ document.querySelectorAll('section[id]').forEach((section) => {
             
                 <div>
                     <a href="/content/blocks/innovations">
-                        <p class="is-size-7 mb-1">Technological Innovations in transport and biodiversity</p>
+                        <p class="is-size-7 mb-1">Technological innovations in transport and biodiversity</p>
                     </a>
                 </div>
             

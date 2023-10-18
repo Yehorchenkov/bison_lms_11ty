@@ -1,7 +1,7 @@
 ---
 layout: layouts/page-toc.njk
 block_name: "block_innovations"
-description: "This module has been elaborated building up on BIZON project outputs, especially deliverable Seiler, A. et all (2022) Report on emerging trends and future challenges, Horizon 2020 project no. 101006661, BISON Biodiversity and Infrastructure Synergies and Opportunities for European Transport Network and resources as listed below."
+description: "This module has been elaborated building up on BIZON project outputs, especially deliverable [Deliverable D3.4 Report on emerging trends and future challenges](/files/D3.4_Report-on-emerging-trends-and-future-challenges.pdf) and resources as listed below."
 ---
 
 <h2 id="introduction">Introduction</h2>
@@ -137,11 +137,11 @@ addressed as follows:
 
     <figure>
         {% image "innovations/automation.png", "Six levels of automation in vehicular technology" %}
-        <figcaption>Redrawn from: (Verwoort et al., 2017). </figcaption>
+        <figcaption>Redrawn from: ([Vervoort et al., 2017](/files/public%20support%20measures%20for%20connected%20and%20automated-EA0117634ENN.pdf)). </figcaption>
     </figure>
 </div>
 
-The main technology developments for future sustainable mobility seems to be concentrated in 3 main domains (see as well Barceló, 2019): 
+The main technology developments for future sustainable mobility seems to be concentrated in 3 main domains (see as well [Barceló, 2019](/files/3-s2.0-B9780128142424000168-main.pdf)): 
 - Innovations based on the use of information and communication technologies, robotization and automation,
 - Vehicular and infrastructure technology, 
 - Energy sources and propulsion technologies.
@@ -170,7 +170,8 @@ sensor networks that inform the vehicles' AI about all driving
 parameters such as e.g., speed, distance to next vehicle ahead,
 proximity to objects near the vehicle, the presence of road demarcations
 or the detection of humans and larger wildlife next to the road
-(Verwoort et al., 2017). This also creates immense opportunities for AI
+([Vervoort et al., 2017](/files/public%20support%20measures%20for%20connected%20and%20automated-EA0117634ENN.pdf)).
+This also creates immense opportunities for AI
 machinebased learning. For example, the car will remember events linked
 to GPS positions, learn to foresee risks, and hence pre-emptively
 counteract, such as by reducing travel speed at times and locations

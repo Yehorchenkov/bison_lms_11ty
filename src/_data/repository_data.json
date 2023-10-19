@@ -86,5 +86,37 @@
         "type": "Book",
         "ref_ext": "http://doi.org/10.1016/B978-0-12-814242-4.00016-8",
         "source": "ScienceDirect"
+    },
+    "Bison_policy_integrating_biodiversity": {
+        "topic": "Policy brief",
+        "ref_local": "/files/BISON-Policy-brief-3-SRA_final.pdf",
+        "name": "Integrating Biodiversity into European Transport infrastructures now and tomorrow: A Strategic Research Agenda for Biodiversity-Friendly Infrastructure",
+        "type": "Presentation",
+        "ref_ext": "https://bison-transport.eu/wp-content/uploads/2023/10/BISON-Policy-brief-3-SRA_final.pdf",
+        "source": "BISON website"
+    },
+    "Bison_policy_biodiversity_and_infrastructure": {
+        "topic": "Policy brief",
+        "ref_local": "/files/BISON-Policy-brief-1-Handbook_final2.pdf",
+        "name": "BIODIVERSITY AND INFRASTRUCTURE: an online handbook for promoting cooperation and transformative change",
+        "type": "Presentation",
+        "ref_ext": "https://bison-transport.eu/wp-content/uploads/2023/10/BISON-Policy-brief-1-Handbook_final2.pdf",
+        "source": "BISON website"
+    },
+    "Bison_policy_transport_infrastructure": {
+        "topic": "Policy brief",
+        "ref_local": "/files/BISON-Policy-brief-2-Scenarios_final.pdf",
+        "name": "Developing sustainable, climate-friendly European transport infrastructure for biodiversity using scenarios",
+        "type": "Presentation",
+        "ref_ext": "https://bison-transport.eu/wp-content/uploads/2023/10/BISON-Policy-brief-2-Scenarios_final.pdf",
+        "source": "BISON website"
+    },
+    "Bison_policy_enhancing_ecological_connectivity": {
+        "topic": "Policy brief",
+        "ref_local": "/files/BISON-Policy-brief-4-Policies_final.pdf",
+        "name": "Enhancing Ecological Connectivity in Transport Infrastructure: Aligning National Policies, Strategies, and Implementation with EU’s Green Infrastructure Strategy",
+        "type": "Presentation",
+        "ref_ext": "https://bison-transport.eu/wp-content/uploads/2023/10/BISON-Policy-brief-4-Policies_final.pdf",
+        "source": "BISON website"
     }
 }

@@ -39,8 +39,6 @@ The BISON project will meet the above aim through the specific objectives below:
 
 List of BISON project participants includes 43 organization from 16 countries
 
-#### Practitioners
-
 | # | Participant organization name | Country |
 |--|--|--|
 |  | *Practicioners* | |
@@ -91,8 +89,35 @@ List of BISON project participants includes 43 organization from 16 countries
 | 42 | [Professional union of ecological engineering (UPGE)](http://www.genie-ecologique.fr/) | France |
 | 43 | [WWF Romania](https://www.wwf.ro/) | Romania |
 
+<h2 id="bison-policy-briefs">BISON Policy Briefs</h2>
+
+As part of the BISON project, four policy briefs have been drawn up with the aim of proposing actions at European, national and local levels. You will find a summary of the policy briefs below 
+
+    - [Integrating Biodiversity into European Transport infrastructures now and tomorrow: A Strategic Research Agenda for Biodiversity-Friendly Infrastructure](/files/BISON-Policy-brief-3-SRA_final.pdf)
+
+To effectively integrate biodiversity considerations into transport infrastructure, the BISON project has developed a Strategic Research Agenda that promotes multidisciplinary and cross-sectoral research approaches. Currently, research efforts in this area are often fragmented, hindering a comprehensive understanding of the interactions between transport infrastructure and biodiversity.
+
+The Strategic Research Agenda proposes various measures to enhance European research on this issue. By implementing these measures, the European Union will be better positioned to align with the Kunming-Montreal Global Biodiversity Framework, which strives to restore or maintain the integrity of all ecosystems.
+
+    - ["BIODIVERSITY AND INFRASTRUCTURE”: an online handbook for promoting cooperation and transformative change](/files/BISON-Policy-brief-1-Handbook_final2.pdf)
+
+Sustainable transport infrastructure is fundamental for economic and social progress. To achieve this, we must embrace new innovative solutions while replicating best practices that benefit nature. Alongside increasing infrastructure resilience and safety, we need transformative changes in transport infrastructure development that go beyond prioritising decarbonisation and digitalisation and seek to restore nature, safeguard biodiversity and produce positive outcomes for human societies.
+“Biodiversity and Infrastructure: A Handbook for Action”, developed in cooperation with Infrastructure & Ecology Network Europe (IENE) and based on the “Wildlife and Traffic Handbook”, is a key tool for achieving such goals. It is designed to enhance knowledge transfer and capacity building, empowering the transport and ecology sectors to work together to achieve sustainable infrastructure development. It provides access to concise, up-to-date and essential information, presenting clear technical instructions for the planning, design and maintenance of effective measures to protect biodiversity in infrastructure development aligned with global and European biodiversity policies.
+
+    - [Developing sustainable, climate-friendly European transport infrastructure for biodiversity using scenarios](/files/BISON-Policy-brief-2-Scenarios_final.pdf)
+
+By exploring plausible futures between biodiversity and transport infrastructure, the BISON scenarios make it possible to anticipate future relationships between biodiversity and ecosystem services, on the one hand, and transport infrastructure, on the other.
+
+The BISON scenarios provide information on development trajectories that follow different possible sustainability paths. All the trajectories involve trade-offs. The scenarios presented here help explain why some trajectories are not sustainable and highlight the way forward to make transport infrastructure sustainable for biodiversity.
+
+    - [Enhancing Ecological Connectivity in Transport Infrastructure: Aligning National Policies, Strategies, and Implementation with EU’s Green Infrastructure Strategy](/files/BISON-Policy-brief-4-Policies_final.pdf) 
+
+To achieve sustainable development, regulating the relationship between transport (grey) infrastructure and ecological (green and blue) infrastructure is crucial. The BISON project thoroughly analysed the alignment of policies and strategies and the level of implementation maturity in accordance with the European Union Strategy for Green Infrastructure (EU SGI).
+
+Its aim is to ensure ecological connectivity in infrastructure development and provide recommendations to address different maturity levels. BISON findings indicate that while there has been some integration of biodiversity and green infrastructure in national legislation and policies, further advances are necessary, especially in terms of incorporating biodiversity and Ecological connectivity in the development and maintenance of transport-related projects at national and regional levels.
+
 <h2 id="presentation">References</h2>
 
 If you are interested in learning more about the Bison project, you can visit the <a href="https://bison-transport.eu/" target="_blank">website</a> for more details.
 
-You can also find more information from the <a href="/files/bison-presentation.pdf" target="_blank">presentation</a> about the project.
+You can also find more information from the [presentation](/files/bison-presentation.pdf) about the project.

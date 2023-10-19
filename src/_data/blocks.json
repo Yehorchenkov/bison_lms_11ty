@@ -9,7 +9,7 @@
                 "ref": "/content/blocks/climate-change",
                 "ref_general": "/notes/climate-change",
                 "header": "Block II",
-                "description": "This module has been elaborated building up on BISON project outputs, especially Deliverable D3.4 “Report on emerging trends and future challenges” and complementary resources are listed as footnotes in relevant places."
+                "description": ["This module has been elaborated building up on BISON project outputs, especially <a href=\"/files/D3.4_Report-on-emerging-trends-and-future-challenges.pdf\">Deliverable D3.4 Report on emerging trends and future challenges</a> and complementary resources are listed as footnotes in relevant places."]
             },
     "block_challenges": {"name": "Transport development challenges for biodiversity",
                 "ref": "/content/blocks/challenges",

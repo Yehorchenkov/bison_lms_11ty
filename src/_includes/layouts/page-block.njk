@@ -5,8 +5,8 @@ layout: "layouts/base.njk"
 <article class="page-layout">
     <section class="section">        
         
-        <h1 class="title">{{ blocks[block_name].name }}</h1>
-        <p>{{ blocks[block_name].description }}</p>
+        <h1 class="title">{{ blocks[block_name].name | safe }}</h1>
+        <p>{{ blocks[block_name].description | safe}}</p>
 
         <hr class="solid">
 
